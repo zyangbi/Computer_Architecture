@@ -1,0 +1,1752 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 40000000
+Ceviche: 0
+Strategy: 0
+Number of CPUs: 4
+LLC sets: 8192
+LLC ways: 8
+Off-chip DRAM Size: 16384 MB Channels: 1 Width: 64-bit Data Rate: 800 MT/s
+
+CPU 0 runs /home/prashantnair/CPEN411-2023/ChampSim-Intel/simscript/../spec2006/400.perlbench.gz
+CPU 1 runs /home/prashantnair/CPEN411-2023/ChampSim-Intel/simscript/../spec2006/400.perlbench.gz
+CPU 2 runs /home/prashantnair/CPEN411-2023/ChampSim-Intel/simscript/../spec2006/400.perlbench.gz
+CPU 3 runs /home/prashantnair/CPEN411-2023/ChampSim-Intel/simscript/../spec2006/400.perlbench.gz
+Initialize DRRIP state
+Assign rand_sets[0]: 454  LLC: 8192
+rand_sets[0]: 454
+Assign rand_sets[1]: 5758  LLC: 8192
+rand_sets[1]: 5758
+Assign rand_sets[2]: 1921  LLC: 8192
+rand_sets[2]: 1921
+Assign rand_sets[3]: 1131  LLC: 8192
+rand_sets[3]: 1131
+Assign rand_sets[4]: 6475  LLC: 8192
+rand_sets[4]: 6475
+Assign rand_sets[5]: 5627  LLC: 8192
+rand_sets[5]: 5627
+Assign rand_sets[6]: 6626  LLC: 8192
+rand_sets[6]: 6626
+Assign rand_sets[7]: 7419  LLC: 8192
+rand_sets[7]: 7419
+Assign rand_sets[8]: 8020  LLC: 8192
+rand_sets[8]: 8020
+Assign rand_sets[9]: 4086  LLC: 8192
+rand_sets[9]: 4086
+Assign rand_sets[10]: 2749  LLC: 8192
+rand_sets[10]: 2749
+Assign rand_sets[11]: 4575  LLC: 8192
+rand_sets[11]: 4575
+Assign rand_sets[12]: 892  LLC: 8192
+rand_sets[12]: 892
+Assign rand_sets[13]: 3868  LLC: 8192
+rand_sets[13]: 3868
+Assign rand_sets[14]: 7649  LLC: 8192
+rand_sets[14]: 7649
+Assign rand_sets[15]: 1159  LLC: 8192
+rand_sets[15]: 1159
+Assign rand_sets[16]: 513  LLC: 8192
+rand_sets[16]: 513
+Assign rand_sets[17]: 4799  LLC: 8192
+rand_sets[17]: 4799
+Assign rand_sets[18]: 561  LLC: 8192
+rand_sets[18]: 561
+Assign rand_sets[19]: 990  LLC: 8192
+rand_sets[19]: 990
+Assign rand_sets[20]: 2390  LLC: 8192
+rand_sets[20]: 2390
+Assign rand_sets[21]: 4978  LLC: 8192
+rand_sets[21]: 4978
+Assign rand_sets[22]: 4111  LLC: 8192
+rand_sets[22]: 4111
+Assign rand_sets[23]: 2119  LLC: 8192
+rand_sets[23]: 2119
+Assign rand_sets[24]: 3175  LLC: 8192
+rand_sets[24]: 3175
+Assign rand_sets[25]: 5478  LLC: 8192
+rand_sets[25]: 5478
+Assign rand_sets[26]: 647  LLC: 8192
+rand_sets[26]: 647
+Assign rand_sets[27]: 4953  LLC: 8192
+rand_sets[27]: 4953
+Assign rand_sets[28]: 3498  LLC: 8192
+rand_sets[28]: 3498
+Assign rand_sets[29]: 1160  LLC: 8192
+rand_sets[29]: 1160
+Assign rand_sets[30]: 5948  LLC: 8192
+rand_sets[30]: 5948
+Assign rand_sets[31]: 3929  LLC: 8192
+rand_sets[31]: 3929
+Assign rand_sets[32]: 3818  LLC: 8192
+rand_sets[32]: 3818
+Assign rand_sets[33]: 5718  LLC: 8192
+rand_sets[33]: 5718
+Assign rand_sets[34]: 275  LLC: 8192
+rand_sets[34]: 275
+Assign rand_sets[35]: 2683  LLC: 8192
+rand_sets[35]: 2683
+Assign rand_sets[36]: 4562  LLC: 8192
+rand_sets[36]: 4562
+Assign rand_sets[37]: 3461  LLC: 8192
+rand_sets[37]: 3461
+Assign rand_sets[38]: 6561  LLC: 8192
+rand_sets[38]: 6561
+Assign rand_sets[39]: 2520  LLC: 8192
+rand_sets[39]: 2520
+Assign rand_sets[40]: 5436  LLC: 8192
+rand_sets[40]: 5436
+Assign rand_sets[41]: 6996  LLC: 8192
+rand_sets[41]: 6996
+Assign rand_sets[42]: 7509  LLC: 8192
+rand_sets[42]: 7509
+Assign rand_sets[43]: 4143  LLC: 8192
+rand_sets[43]: 4143
+Assign rand_sets[44]: 6967  LLC: 8192
+rand_sets[44]: 6967
+Assign rand_sets[45]: 6830  LLC: 8192
+rand_sets[45]: 6830
+Assign rand_sets[46]: 7781  LLC: 8192
+rand_sets[46]: 7781
+Assign rand_sets[47]: 5211  LLC: 8192
+rand_sets[47]: 5211
+Assign rand_sets[48]: 986  LLC: 8192
+rand_sets[48]: 986
+Assign rand_sets[49]: 258  LLC: 8192
+rand_sets[49]: 258
+Assign rand_sets[50]: 6777  LLC: 8192
+rand_sets[50]: 6777
+Assign rand_sets[51]: 920  LLC: 8192
+rand_sets[51]: 920
+Assign rand_sets[52]: 2252  LLC: 8192
+rand_sets[52]: 2252
+Assign rand_sets[53]: 227  LLC: 8192
+rand_sets[53]: 227
+Assign rand_sets[54]: 7962  LLC: 8192
+rand_sets[54]: 7962
+Assign rand_sets[55]: 2934  LLC: 8192
+rand_sets[55]: 2934
+Assign rand_sets[56]: 1422  LLC: 8192
+rand_sets[56]: 1422
+Assign rand_sets[57]: 6751  LLC: 8192
+rand_sets[57]: 6751
+Assign rand_sets[58]: 2265  LLC: 8192
+rand_sets[58]: 2265
+Assign rand_sets[59]: 1945  LLC: 8192
+rand_sets[59]: 1945
+Assign rand_sets[60]: 6287  LLC: 8192
+rand_sets[60]: 6287
+Assign rand_sets[61]: 5407  LLC: 8192
+rand_sets[61]: 5407
+Assign rand_sets[62]: 2367  LLC: 8192
+rand_sets[62]: 2367
+Assign rand_sets[63]: 3894  LLC: 8192
+rand_sets[63]: 3894
+Assign rand_sets[64]: 2286  LLC: 8192
+rand_sets[64]: 2286
+Assign rand_sets[65]: 67  LLC: 8192
+rand_sets[65]: 67
+Assign rand_sets[66]: 8056  LLC: 8192
+rand_sets[66]: 8056
+Assign rand_sets[67]: 7757  LLC: 8192
+rand_sets[67]: 7757
+Assign rand_sets[68]: 7437  LLC: 8192
+rand_sets[68]: 7437
+Assign rand_sets[69]: 5114  LLC: 8192
+rand_sets[69]: 5114
+Assign rand_sets[70]: 4030  LLC: 8192
+rand_sets[70]: 4030
+Assign rand_sets[71]: 5798  LLC: 8192
+rand_sets[71]: 5798
+Assign rand_sets[72]: 3546  LLC: 8192
+rand_sets[72]: 3546
+Assign rand_sets[73]: 4324  LLC: 8192
+rand_sets[73]: 4324
+Assign rand_sets[74]: 1414  LLC: 8192
+rand_sets[74]: 1414
+Assign rand_sets[75]: 5262  LLC: 8192
+rand_sets[75]: 5262
+Assign rand_sets[76]: 732  LLC: 8192
+rand_sets[76]: 732
+Assign rand_sets[77]: 6441  LLC: 8192
+rand_sets[77]: 6441
+Assign rand_sets[78]: 3181  LLC: 8192
+rand_sets[78]: 3181
+Assign rand_sets[79]: 4942  LLC: 8192
+rand_sets[79]: 4942
+Assign rand_sets[80]: 767  LLC: 8192
+rand_sets[80]: 767
+Assign rand_sets[81]: 8022  LLC: 8192
+rand_sets[81]: 8022
+Assign rand_sets[82]: 3041  LLC: 8192
+rand_sets[82]: 3041
+Assign rand_sets[83]: 7536  LLC: 8192
+rand_sets[83]: 7536
+Assign rand_sets[84]: 1568  LLC: 8192
+rand_sets[84]: 1568
+Assign rand_sets[85]: 1787  LLC: 8192
+rand_sets[85]: 1787
+Assign rand_sets[86]: 4495  LLC: 8192
+rand_sets[86]: 4495
+Assign rand_sets[87]: 1201  LLC: 8192
+rand_sets[87]: 1201
+Assign rand_sets[88]: 4952  LLC: 8192
+rand_sets[88]: 4952
+Assign rand_sets[89]: 4869  LLC: 8192
+rand_sets[89]: 4869
+Assign rand_sets[90]: 5776  LLC: 8192
+rand_sets[90]: 5776
+Assign rand_sets[91]: 7621  LLC: 8192
+rand_sets[91]: 7621
+Assign rand_sets[92]: 6153  LLC: 8192
+rand_sets[92]: 6153
+Assign rand_sets[93]: 7644  LLC: 8192
+rand_sets[93]: 7644
+Assign rand_sets[94]: 2899  LLC: 8192
+rand_sets[94]: 2899
+Assign rand_sets[95]: 7117  LLC: 8192
+rand_sets[95]: 7117
+Assign rand_sets[96]: 938  LLC: 8192
+rand_sets[96]: 938
+Assign rand_sets[97]: 5947  LLC: 8192
+rand_sets[97]: 5947
+Assign rand_sets[98]: 5704  LLC: 8192
+rand_sets[98]: 5704
+Assign rand_sets[99]: 1945  LLC: 8192
+Assign rand_sets[99]: 5202  LLC: 8192
+rand_sets[99]: 5202
+Assign rand_sets[100]: 979  LLC: 8192
+rand_sets[100]: 979
+Assign rand_sets[101]: 4434  LLC: 8192
+rand_sets[101]: 4434
+Assign rand_sets[102]: 3741  LLC: 8192
+rand_sets[102]: 3741
+Assign rand_sets[103]: 6  LLC: 8192
+rand_sets[103]: 6
+Assign rand_sets[104]: 6815  LLC: 8192
+rand_sets[104]: 6815
+Assign rand_sets[105]: 4586  LLC: 8192
+rand_sets[105]: 4586
+Assign rand_sets[106]: 1461  LLC: 8192
+rand_sets[106]: 1461
+Assign rand_sets[107]: 1730  LLC: 8192
+rand_sets[107]: 1730
+Assign rand_sets[108]: 7174  LLC: 8192
+rand_sets[108]: 7174
+Assign rand_sets[109]: 2067  LLC: 8192
+rand_sets[109]: 2067
+Assign rand_sets[110]: 7064  LLC: 8192
+rand_sets[110]: 7064
+Assign rand_sets[111]: 6473  LLC: 8192
+rand_sets[111]: 6473
+Assign rand_sets[112]: 7858  LLC: 8192
+rand_sets[112]: 7858
+Assign rand_sets[113]: 1  LLC: 8192
+rand_sets[113]: 1
+Assign rand_sets[114]: 5918  LLC: 8192
+rand_sets[114]: 5918
+Assign rand_sets[115]: 172  LLC: 8192
+rand_sets[115]: 172
+Assign rand_sets[116]: 3634  LLC: 8192
+rand_sets[116]: 3634
+Assign rand_sets[117]: 4744  LLC: 8192
+rand_sets[117]: 4744
+Assign rand_sets[118]: 7473  LLC: 8192
+rand_sets[118]: 7473
+Assign rand_sets[119]: 4764  LLC: 8192
+rand_sets[119]: 4764
+Assign rand_sets[120]: 5970  LLC: 8192
+rand_sets[120]: 5970
+Assign rand_sets[121]: 4166  LLC: 8192
+rand_sets[121]: 4166
+Assign rand_sets[122]: 6805  LLC: 8192
+rand_sets[122]: 6805
+Assign rand_sets[123]: 7793  LLC: 8192
+rand_sets[123]: 7793
+Assign rand_sets[124]: 7734  LLC: 8192
+rand_sets[124]: 7734
+Assign rand_sets[125]: 5007  LLC: 8192
+rand_sets[125]: 5007
+Assign rand_sets[126]: 3415  LLC: 8192
+rand_sets[126]: 3415
+Assign rand_sets[127]: 7926  LLC: 8192
+rand_sets[127]: 7926
+Assign rand_sets[128]: 6713  LLC: 8192
+rand_sets[128]: 6713
+Assign rand_sets[129]: 1309  LLC: 8192
+rand_sets[129]: 1309
+Assign rand_sets[130]: 2582  LLC: 8192
+rand_sets[130]: 2582
+Assign rand_sets[131]: 7418  LLC: 8192
+rand_sets[131]: 7418
+Assign rand_sets[132]: 5000  LLC: 8192
+rand_sets[132]: 5000
+Assign rand_sets[133]: 8052  LLC: 8192
+rand_sets[133]: 8052
+Assign rand_sets[134]: 6389  LLC: 8192
+rand_sets[134]: 6389
+Assign rand_sets[135]: 3736  LLC: 8192
+rand_sets[135]: 3736
+Assign rand_sets[136]: 7804  LLC: 8192
+rand_sets[136]: 7804
+Assign rand_sets[137]: 7447  LLC: 8192
+rand_sets[137]: 7447
+Assign rand_sets[138]: 1628  LLC: 8192
+rand_sets[138]: 1628
+Assign rand_sets[139]: 8001  LLC: 8192
+rand_sets[139]: 8001
+Assign rand_sets[140]: 4283  LLC: 8192
+rand_sets[140]: 4283
+Assign rand_sets[141]: 7533  LLC: 8192
+rand_sets[141]: 7533
+Assign rand_sets[142]: 881  LLC: 8192
+rand_sets[142]: 881
+Assign rand_sets[143]: 3214  LLC: 8192
+rand_sets[143]: 3214
+Assign rand_sets[144]: 3087  LLC: 8192
+rand_sets[144]: 3087
+Assign rand_sets[145]: 3184  LLC: 8192
+rand_sets[145]: 3184
+Assign rand_sets[146]: 4697  LLC: 8192
+rand_sets[146]: 4697
+Assign rand_sets[147]: 967  LLC: 8192
+rand_sets[147]: 967
+Assign rand_sets[148]: 6913  LLC: 8192
+rand_sets[148]: 6913
+Assign rand_sets[149]: 6427  LLC: 8192
+rand_sets[149]: 6427
+Assign rand_sets[150]: 6703  LLC: 8192
+rand_sets[150]: 6703
+Assign rand_sets[151]: 3123  LLC: 8192
+rand_sets[151]: 3123
+Assign rand_sets[152]: 6973  LLC: 8192
+rand_sets[152]: 6973
+Assign rand_sets[153]: 1681  LLC: 8192
+rand_sets[153]: 1681
+Assign rand_sets[154]: 7872  LLC: 8192
+rand_sets[154]: 7872
+Assign rand_sets[155]: 2589  LLC: 8192
+rand_sets[155]: 2589
+Assign rand_sets[156]: 4517  LLC: 8192
+rand_sets[156]: 4517
+Assign rand_sets[157]: 1037  LLC: 8192
+rand_sets[157]: 1037
+Assign rand_sets[158]: 6157  LLC: 8192
+rand_sets[158]: 6157
+Assign rand_sets[159]: 1707  LLC: 8192
+rand_sets[159]: 1707
+Assign rand_sets[160]: 1075  LLC: 8192
+rand_sets[160]: 1075
+Assign rand_sets[161]: 6029  LLC: 8192
+rand_sets[161]: 6029
+Assign rand_sets[162]: 1406  LLC: 8192
+rand_sets[162]: 1406
+Assign rand_sets[163]: 2142  LLC: 8192
+rand_sets[163]: 2142
+Assign rand_sets[164]: 5519  LLC: 8192
+rand_sets[164]: 5519
+Assign rand_sets[165]: 1854  LLC: 8192
+rand_sets[165]: 1854
+Assign rand_sets[166]: 6374  LLC: 8192
+rand_sets[166]: 6374
+Assign rand_sets[167]: 2152  LLC: 8192
+rand_sets[167]: 2152
+Assign rand_sets[168]: 7796  LLC: 8192
+rand_sets[168]: 7796
+Assign rand_sets[169]: 3494  LLC: 8192
+rand_sets[169]: 3494
+Assign rand_sets[170]: 5434  LLC: 8192
+rand_sets[170]: 5434
+Assign rand_sets[171]: 4273  LLC: 8192
+rand_sets[171]: 4273
+Assign rand_sets[172]: 195  LLC: 8192
+rand_sets[172]: 195
+Assign rand_sets[173]: 1171  LLC: 8192
+rand_sets[173]: 1171
+Assign rand_sets[174]: 7441  LLC: 8192
+rand_sets[174]: 7441
+Assign rand_sets[175]: 3752  LLC: 8192
+rand_sets[175]: 3752
+Assign rand_sets[176]: 4196  LLC: 8192
+rand_sets[176]: 4196
+Assign rand_sets[177]: 4807  LLC: 8192
+rand_sets[177]: 4807
+Assign rand_sets[178]: 3291  LLC: 8192
+rand_sets[178]: 3291
+Assign rand_sets[179]: 1738  LLC: 8192
+rand_sets[179]: 1738
+Assign rand_sets[180]: 3552  LLC: 8192
+rand_sets[180]: 3552
+Assign rand_sets[181]: 2144  LLC: 8192
+rand_sets[181]: 2144
+Assign rand_sets[182]: 7393  LLC: 8192
+rand_sets[182]: 7393
+Assign rand_sets[183]: 5363  LLC: 8192
+rand_sets[183]: 5363
+Assign rand_sets[184]: 3775  LLC: 8192
+rand_sets[184]: 3775
+Assign rand_sets[185]: 5641  LLC: 8192
+rand_sets[185]: 5641
+Assign rand_sets[186]: 1792  LLC: 8192
+rand_sets[186]: 1792
+Assign rand_sets[187]: 1383  LLC: 8192
+rand_sets[187]: 1383
+Assign rand_sets[188]: 4002  LLC: 8192
+rand_sets[188]: 4002
+Assign rand_sets[189]: 2787  LLC: 8192
+rand_sets[189]: 2787
+Assign rand_sets[190]: 3109  LLC: 8192
+rand_sets[190]: 3109
+Assign rand_sets[191]: 4768  LLC: 8192
+rand_sets[191]: 4768
+Assign rand_sets[192]: 3105  LLC: 8192
+rand_sets[192]: 3105
+Assign rand_sets[193]: 1329  LLC: 8192
+rand_sets[193]: 1329
+Assign rand_sets[194]: 5511  LLC: 8192
+rand_sets[194]: 5511
+Assign rand_sets[195]: 5077  LLC: 8192
+rand_sets[195]: 5077
+Assign rand_sets[196]: 6242  LLC: 8192
+rand_sets[196]: 6242
+Assign rand_sets[197]: 453  LLC: 8192
+rand_sets[197]: 453
+Assign rand_sets[198]: 3496  LLC: 8192
+rand_sets[198]: 3496
+Assign rand_sets[199]: 2127  LLC: 8192
+rand_sets[199]: 2127
+Assign rand_sets[200]: 6270  LLC: 8192
+rand_sets[200]: 6270
+Assign rand_sets[201]: 5678  LLC: 8192
+rand_sets[201]: 5678
+Assign rand_sets[202]: 3337  LLC: 8192
+rand_sets[202]: 3337
+Assign rand_sets[203]: 2923  LLC: 8192
+rand_sets[203]: 2923
+Assign rand_sets[204]: 4500  LLC: 8192
+rand_sets[204]: 4500
+Assign rand_sets[205]: 415  LLC: 8192
+rand_sets[205]: 415
+Assign rand_sets[206]: 5808  LLC: 8192
+rand_sets[206]: 5808
+Assign rand_sets[207]: 7533  LLC: 8192
+Assign rand_sets[207]: 4265  LLC: 8192
+rand_sets[207]: 4265
+Assign rand_sets[208]: 158  LLC: 8192
+rand_sets[208]: 158
+Assign rand_sets[209]: 90  LLC: 8192
+rand_sets[209]: 90
+Assign rand_sets[210]: 3339  LLC: 8192
+rand_sets[210]: 3339
+Assign rand_sets[211]: 838  LLC: 8192
+rand_sets[211]: 838
+Assign rand_sets[212]: 3952  LLC: 8192
+rand_sets[212]: 3952
+Assign rand_sets[213]: 640  LLC: 8192
+rand_sets[213]: 640
+Assign rand_sets[214]: 3510  LLC: 8192
+rand_sets[214]: 3510
+Assign rand_sets[215]: 7631  LLC: 8192
+rand_sets[215]: 7631
+Assign rand_sets[216]: 1863  LLC: 8192
+rand_sets[216]: 1863
+Assign rand_sets[217]: 3084  LLC: 8192
+rand_sets[217]: 3084
+Assign rand_sets[218]: 1702  LLC: 8192
+rand_sets[218]: 1702
+Assign rand_sets[219]: 2981  LLC: 8192
+rand_sets[219]: 2981
+Assign rand_sets[220]: 554  LLC: 8192
+rand_sets[220]: 554
+Assign rand_sets[221]: 5592  LLC: 8192
+rand_sets[221]: 5592
+Assign rand_sets[222]: 1708  LLC: 8192
+rand_sets[222]: 1708
+Assign rand_sets[223]: 1275  LLC: 8192
+rand_sets[223]: 1275
+Assign rand_sets[224]: 4512  LLC: 8192
+rand_sets[224]: 4512
+Assign rand_sets[225]: 4587  LLC: 8192
+rand_sets[225]: 4587
+Assign rand_sets[226]: 2231  LLC: 8192
+rand_sets[226]: 2231
+Assign rand_sets[227]: 1657  LLC: 8192
+rand_sets[227]: 1657
+Assign rand_sets[228]: 5156  LLC: 8192
+rand_sets[228]: 5156
+Assign rand_sets[229]: 4722  LLC: 8192
+rand_sets[229]: 4722
+Assign rand_sets[230]: 5411  LLC: 8192
+rand_sets[230]: 5411
+Assign rand_sets[231]: 1682  LLC: 8192
+rand_sets[231]: 1682
+Assign rand_sets[232]: 5448  LLC: 8192
+rand_sets[232]: 5448
+Assign rand_sets[233]: 1152  LLC: 8192
+rand_sets[233]: 1152
+Assign rand_sets[234]: 3013  LLC: 8192
+rand_sets[234]: 3013
+Assign rand_sets[235]: 1190  LLC: 8192
+rand_sets[235]: 1190
+Assign rand_sets[236]: 1191  LLC: 8192
+rand_sets[236]: 1191
+Assign rand_sets[237]: 6789  LLC: 8192
+rand_sets[237]: 6789
+Assign rand_sets[238]: 695  LLC: 8192
+rand_sets[238]: 695
+Assign rand_sets[239]: 3543  LLC: 8192
+rand_sets[239]: 3543
+Assign rand_sets[240]: 3980  LLC: 8192
+rand_sets[240]: 3980
+Assign rand_sets[241]: 656  LLC: 8192
+rand_sets[241]: 656
+Assign rand_sets[242]: 1508  LLC: 8192
+rand_sets[242]: 1508
+Assign rand_sets[243]: 5035  LLC: 8192
+rand_sets[243]: 5035
+Assign rand_sets[244]: 2403  LLC: 8192
+rand_sets[244]: 2403
+Assign rand_sets[245]: 1092  LLC: 8192
+rand_sets[245]: 1092
+Assign rand_sets[246]: 850  LLC: 8192
+rand_sets[246]: 850
+Assign rand_sets[247]: 4198  LLC: 8192
+rand_sets[247]: 4198
+Assign rand_sets[248]: 3811  LLC: 8192
+rand_sets[248]: 3811
+Assign rand_sets[249]: 668  LLC: 8192
+rand_sets[249]: 668
+Assign rand_sets[250]: 4147  LLC: 8192
+rand_sets[250]: 4147
+Assign rand_sets[251]: 5413  LLC: 8192
+rand_sets[251]: 5413
+Assign rand_sets[252]: 4089  LLC: 8192
+rand_sets[252]: 4089
+Assign rand_sets[253]: 7518  LLC: 8192
+rand_sets[253]: 7518
+Assign rand_sets[254]: 4778  LLC: 8192
+rand_sets[254]: 4778
+Assign rand_sets[255]: 7610  LLC: 8192
+rand_sets[255]: 7610
+Heartbeat CPU 0 instructions: 10000002 cycles: 6978350 heartbeat IPC: 1.433 cumulative IPC: 1.433 (Simulation time: 0 hr 4 min 26 sec) 
+Heartbeat CPU 1 instructions: 10000002 cycles: 6978528 heartbeat IPC: 1.43297 cumulative IPC: 1.43297 (Simulation time: 0 hr 4 min 26 sec) 
+Heartbeat CPU 2 instructions: 10000002 cycles: 6979102 heartbeat IPC: 1.43285 cumulative IPC: 1.43285 (Simulation time: 0 hr 4 min 26 sec) 
+Heartbeat CPU 3 instructions: 10000002 cycles: 6979739 heartbeat IPC: 1.43272 cumulative IPC: 1.43272 (Simulation time: 0 hr 4 min 26 sec) 
+
+Warmup_CPU0_instructions : 10002499
+Warmup_CPU0_cycles : 6979739
+ (Simulation time: 0 hr 4 min 26 sec) 
+Warmup_CPU1_instructions : 10002166
+Warmup_CPU1_cycles : 6979739
+ (Simulation time: 0 hr 4 min 26 sec) 
+Warmup_CPU2_instructions : 10001158
+Warmup_CPU2_cycles : 6979739
+ (Simulation time: 0 hr 4 min 26 sec) 
+Warmup_CPU3_instructions : 10000002
+Warmup_CPU3_cycles : 6979739
+ (Simulation time: 0 hr 4 min 26 sec) 
+
+Heartbeat CPU 1 instructions: 20000000 cycles: 20275136 heartbeat IPC: 0.752071 cumulative IPC: 0.751977 (Simulation time: 0 hr 7 min 25 sec) 
+Heartbeat CPU 2 instructions: 20000000 cycles: 20324051 heartbeat IPC: 0.749347 cumulative IPC: 0.749296 (Simulation time: 0 hr 7 min 26 sec) 
+Heartbeat CPU 0 instructions: 20000000 cycles: 20325985 heartbeat IPC: 0.749196 cumulative IPC: 0.749087 (Simulation time: 0 hr 7 min 26 sec) 
+Heartbeat CPU 3 instructions: 20000000 cycles: 20348854 heartbeat IPC: 0.747993 cumulative IPC: 0.747993 (Simulation time: 0 hr 7 min 26 sec) 
+Heartbeat CPU 1 instructions: 30000000 cycles: 96120147 heartbeat IPC: 0.131848 cumulative IPC: 0.224341 (Simulation time: 0 hr 15 min 22 sec) 
+Heartbeat CPU 2 instructions: 30000000 cycles: 97167692 heartbeat IPC: 0.130134 cumulative IPC: 0.221746 (Simulation time: 0 hr 15 min 37 sec) 
+Heartbeat CPU 0 instructions: 30000000 cycles: 97171151 heartbeat IPC: 0.130132 cumulative IPC: 0.221723 (Simulation time: 0 hr 15 min 37 sec) 
+Heartbeat CPU 3 instructions: 30000000 cycles: 97230649 heartbeat IPC: 0.13007 cumulative IPC: 0.221604 (Simulation time: 0 hr 15 min 37 sec) 
+Heartbeat CPU 1 instructions: 40000002 cycles: 117819402 heartbeat IPC: 0.460845 cumulative IPC: 0.270642 (Simulation time: 0 hr 18 min 58 sec) 
+Heartbeat CPU 2 instructions: 40000002 cycles: 118543915 heartbeat IPC: 0.46781 cumulative IPC: 0.268893 (Simulation time: 0 hr 19 min 11 sec) 
+Heartbeat CPU 0 instructions: 40000002 cycles: 118571307 heartbeat IPC: 0.467286 cumulative IPC: 0.268815 (Simulation time: 0 hr 19 min 12 sec) 
+Heartbeat CPU 3 instructions: 40000002 cycles: 118572060 heartbeat IPC: 0.468573 cumulative IPC: 0.268836 (Simulation time: 0 hr 19 min 12 sec) 
+Heartbeat CPU 1 instructions: 50000003 cycles: 126057253 heartbeat IPC: 1.21391 cumulative IPC: 0.335897 (Simulation time: 0 hr 21 min 23 sec) 
+Finished_CPU1_instructions : 40000000
+Finished_CPU1_cycles : 119079076
+Cumulative_IPC1 : 0.335911
+ (Simulation time: 0 hr 21 min 23 sec) 
+Heartbeat CPU 2 instructions: 50000003 cycles: 126780720 heartbeat IPC: 1.21406 cumulative IPC: 0.333877 (Simulation time: 0 hr 21 min 36 sec) 
+Finished_CPU2_instructions : 40000003
+Finished_CPU2_cycles : 119801806
+Cumulative_IPC2 : 0.333885
+ (Simulation time: 0 hr 21 min 36 sec) 
+Heartbeat CPU 0 instructions: 50000003 cycles: 126808112 heartbeat IPC: 1.21406 cumulative IPC: 0.33379 (Simulation time: 0 hr 21 min 36 sec) 
+Heartbeat CPU 3 instructions: 50000003 cycles: 126808865 heartbeat IPC: 1.21406 cumulative IPC: 0.333809 (Simulation time: 0 hr 21 min 36 sec) 
+Finished_CPU3_instructions : 40000001
+Finished_CPU3_cycles : 119829126
+Cumulative_IPC3 : 0.333809
+ (Simulation time: 0 hr 21 min 36 sec) 
+Finished_CPU0_instructions : 40000000
+Finished_CPU0_cycles : 119830219
+Cumulative_IPC0 : 0.333806
+ (Simulation time: 0 hr 21 min 36 sec) 
+
+ChampSim completed all CPUs
+
+Total Simulation Statistics (not including warmup)
+
+SIMCPU0_Cumulative_IPC : 0.333806
+SIMCPU0_Instructions : 40000000
+SIMCPU0_Cycles : 119830219
+ ------------ 
+SIM_0L1DTOTAL_ACCESS :   11711717
+SIM_0L1DTOTAL_HITS :   11239254
+SIM_0L1DTOTAL_MISSES :     472463
+SIM_0L1DTOTAL_HITRATE :   0.959659
+
+SIM_0L1DLOAD_ACCESS :    7711304
+SIM_0L1DLOAD_HITS :    7333292
+SIM_0L1DLOAD_MISSES :     378012
+SIM_0L1DLOAD_HITRATE :   0.950979
+
+SIM_0L1DRFO_ACCESS :    4000413
+SIM_0L1DRFO_HITS :    3905962
+SIM_0L1DRFO_MISSES :      94451
+SIM_0L1DRFO_HITRATE :    0.97639
+
+SIM_0L1DPREFETCH_ACCESS :          0
+SIM_0L1DPREFETCH_HITS :          0
+SIM_0L1DPREFETCH_MISSES :          0
+SIM_0L1DPREFETCH_HITRATE :       -nan
+
+SIM_0L1DWRITEBACK_ACCESS :          0
+SIM_0L1DWRITEBACK_HITS :          0
+SIM_0L1DWRITEBACK_MISSES :          0
+SIM_0L1DWRITEBACK_HITRATE :       -nan
+ ------------ 
+ ------------ 
+SIM_0L1ITOTAL_ACCESS :    9330046
+SIM_0L1ITOTAL_HITS :    9328172
+SIM_0L1ITOTAL_MISSES :       1874
+SIM_0L1ITOTAL_HITRATE :   0.999799
+
+SIM_0L1ILOAD_ACCESS :    9330046
+SIM_0L1ILOAD_HITS :    9328172
+SIM_0L1ILOAD_MISSES :       1874
+SIM_0L1ILOAD_HITRATE :   0.999799
+
+SIM_0L1IRFO_ACCESS :          0
+SIM_0L1IRFO_HITS :          0
+SIM_0L1IRFO_MISSES :          0
+SIM_0L1IRFO_HITRATE :       -nan
+
+SIM_0L1IPREFETCH_ACCESS :          0
+SIM_0L1IPREFETCH_HITS :          0
+SIM_0L1IPREFETCH_MISSES :          0
+SIM_0L1IPREFETCH_HITRATE :       -nan
+
+SIM_0L1IWRITEBACK_ACCESS :          0
+SIM_0L1IWRITEBACK_HITS :          0
+SIM_0L1IWRITEBACK_MISSES :          0
+SIM_0L1IWRITEBACK_HITRATE :       -nan
+ ------------ 
+ ------------ 
+SIM_0L2CTOTAL_ACCESS :     684607
+SIM_0L2CTOTAL_HITS :     357799
+SIM_0L2CTOTAL_MISSES :     326808
+SIM_0L2CTOTAL_HITRATE :   0.522634
+
+SIM_0L2CLOAD_ACCESS :     379881
+SIM_0L2CLOAD_HITS :     147044
+SIM_0L2CLOAD_MISSES :     232837
+SIM_0L2CLOAD_HITRATE :   0.387079
+
+SIM_0L2CRFO_ACCESS :      94428
+SIM_0L2CRFO_HITS :       7334
+SIM_0L2CRFO_MISSES :      87094
+SIM_0L2CRFO_HITRATE :  0.0776676
+
+SIM_0L2CPREFETCH_ACCESS :          0
+SIM_0L2CPREFETCH_HITS :          0
+SIM_0L2CPREFETCH_MISSES :          0
+SIM_0L2CPREFETCH_HITRATE :       -nan
+
+SIM_0L2CWRITEBACK_ACCESS :     210298
+SIM_0L2CWRITEBACK_HITS :     203421
+SIM_0L2CWRITEBACK_MISSES :       6877
+SIM_0L2CWRITEBACK_HITRATE :   0.967299
+ ------------ 
+ ------------ 
+SIM_0LLCTOTAL_ACCESS :     516262
+SIM_0LLCTOTAL_HITS :     290237
+SIM_0LLCTOTAL_MISSES :     226025
+SIM_0LLCTOTAL_HITRATE :   0.562189
+
+SIM_0LLCLOAD_ACCESS :     232832
+SIM_0LLCLOAD_HITS :     104360
+SIM_0LLCLOAD_MISSES :     128472
+SIM_0LLCLOAD_HITRATE :    0.44822
+
+SIM_0LLCRFO_ACCESS :      87094
+SIM_0LLCRFO_HITS :       4485
+SIM_0LLCRFO_MISSES :      82609
+SIM_0LLCRFO_HITRATE :  0.0514961
+
+SIM_0LLCPREFETCH_ACCESS :          0
+SIM_0LLCPREFETCH_HITS :          0
+SIM_0LLCPREFETCH_MISSES :          0
+SIM_0LLCPREFETCH_HITRATE :       -nan
+
+SIM_0LLCWRITEBACK_ACCESS :     196336
+SIM_0LLCWRITEBACK_HITS :     181392
+SIM_0LLCWRITEBACK_MISSES :      14944
+SIM_0LLCWRITEBACK_HITRATE :   0.923886
+ ------------ 
+
+SIMCPU1_Cumulative_IPC : 0.341414
+SIMCPU1_Instructions : 40911710
+SIMCPU1_Cycles : 119830219
+ ------------ 
+SIM_1L1DTOTAL_ACCESS :   11915136
+SIM_1L1DTOTAL_HITS :   11442645
+SIM_1L1DTOTAL_MISSES :     472491
+SIM_1L1DTOTAL_HITRATE :   0.960345
+
+SIM_1L1DLOAD_ACCESS :    7858586
+SIM_1L1DLOAD_HITS :    7480546
+SIM_1L1DLOAD_MISSES :     378040
+SIM_1L1DLOAD_HITRATE :   0.951895
+
+SIM_1L1DRFO_ACCESS :    4056550
+SIM_1L1DRFO_HITS :    3962099
+SIM_1L1DRFO_MISSES :      94451
+SIM_1L1DRFO_HITRATE :   0.976716
+
+SIM_1L1DPREFETCH_ACCESS :          0
+SIM_1L1DPREFETCH_HITS :          0
+SIM_1L1DPREFETCH_MISSES :          0
+SIM_1L1DPREFETCH_HITRATE :       -nan
+
+SIM_1L1DWRITEBACK_ACCESS :          0
+SIM_1L1DWRITEBACK_HITS :          0
+SIM_1L1DWRITEBACK_MISSES :          0
+SIM_1L1DWRITEBACK_HITRATE :       -nan
+ ------------ 
+ ------------ 
+SIM_1L1ITOTAL_ACCESS :    9522906
+SIM_1L1ITOTAL_HITS :    9521032
+SIM_1L1ITOTAL_MISSES :       1874
+SIM_1L1ITOTAL_HITRATE :   0.999803
+
+SIM_1L1ILOAD_ACCESS :    9522906
+SIM_1L1ILOAD_HITS :    9521032
+SIM_1L1ILOAD_MISSES :       1874
+SIM_1L1ILOAD_HITRATE :   0.999803
+
+SIM_1L1IRFO_ACCESS :          0
+SIM_1L1IRFO_HITS :          0
+SIM_1L1IRFO_MISSES :          0
+SIM_1L1IRFO_HITRATE :       -nan
+
+SIM_1L1IPREFETCH_ACCESS :          0
+SIM_1L1IPREFETCH_HITS :          0
+SIM_1L1IPREFETCH_MISSES :          0
+SIM_1L1IPREFETCH_HITRATE :       -nan
+
+SIM_1L1IWRITEBACK_ACCESS :          0
+SIM_1L1IWRITEBACK_HITS :          0
+SIM_1L1IWRITEBACK_MISSES :          0
+SIM_1L1IWRITEBACK_HITRATE :       -nan
+ ------------ 
+ ------------ 
+SIM_1L2CTOTAL_ACCESS :     684638
+SIM_1L2CTOTAL_HITS :     359656
+SIM_1L2CTOTAL_MISSES :     324982
+SIM_1L2CTOTAL_HITRATE :   0.525323
+
+SIM_1L2CLOAD_ACCESS :     379914
+SIM_1L2CLOAD_HITS :     149147
+SIM_1L2CLOAD_MISSES :     230767
+SIM_1L2CLOAD_HITRATE :   0.392581
+
+SIM_1L2CRFO_ACCESS :      94435
+SIM_1L2CRFO_HITS :       6477
+SIM_1L2CRFO_MISSES :      87958
+SIM_1L2CRFO_HITRATE :  0.0685869
+
+SIM_1L2CPREFETCH_ACCESS :          0
+SIM_1L2CPREFETCH_HITS :          0
+SIM_1L2CPREFETCH_MISSES :          0
+SIM_1L2CPREFETCH_HITRATE :       -nan
+
+SIM_1L2CWRITEBACK_ACCESS :     210289
+SIM_1L2CWRITEBACK_HITS :     204032
+SIM_1L2CWRITEBACK_MISSES :       6257
+SIM_1L2CWRITEBACK_HITRATE :   0.970246
+ ------------ 
+ ------------ 
+SIM_1LLCTOTAL_ACCESS :     515334
+SIM_1LLCTOTAL_HITS :     288741
+SIM_1LLCTOTAL_MISSES :     226593
+SIM_1LLCTOTAL_HITRATE :   0.560299
+
+SIM_1LLCLOAD_ACCESS :     230762
+SIM_1LLCLOAD_HITS :     102501
+SIM_1LLCLOAD_MISSES :     128261
+SIM_1LLCLOAD_HITRATE :   0.444185
+
+SIM_1LLCRFO_ACCESS :      87958
+SIM_1LLCRFO_HITS :       5362
+SIM_1LLCRFO_MISSES :      82596
+SIM_1LLCRFO_HITRATE :  0.0609609
+
+SIM_1LLCPREFETCH_ACCESS :          0
+SIM_1LLCPREFETCH_HITS :          0
+SIM_1LLCPREFETCH_MISSES :          0
+SIM_1LLCPREFETCH_HITRATE :       -nan
+
+SIM_1LLCWRITEBACK_ACCESS :     196614
+SIM_1LLCWRITEBACK_HITS :     180878
+SIM_1LLCWRITEBACK_MISSES :      15736
+SIM_1LLCWRITEBACK_HITRATE :   0.919965
+ ------------ 
+
+SIMCPU2_Cumulative_IPC : 0.334093
+SIMCPU2_Instructions : 40034409
+SIMCPU2_Cycles : 119830219
+ ------------ 
+SIM_2L1DTOTAL_ACCESS :   11723587
+SIM_2L1DTOTAL_HITS :   11251103
+SIM_2L1DTOTAL_MISSES :     472484
+SIM_2L1DTOTAL_HITRATE :   0.959698
+
+SIM_2L1DLOAD_ACCESS :    7717618
+SIM_2L1DLOAD_HITS :    7339593
+SIM_2L1DLOAD_MISSES :     378025
+SIM_2L1DLOAD_HITRATE :   0.951018
+
+SIM_2L1DRFO_ACCESS :    4005969
+SIM_2L1DRFO_HITS :    3911510
+SIM_2L1DRFO_MISSES :      94459
+SIM_2L1DRFO_HITRATE :    0.97642
+
+SIM_2L1DPREFETCH_ACCESS :          0
+SIM_2L1DPREFETCH_HITS :          0
+SIM_2L1DPREFETCH_MISSES :          0
+SIM_2L1DPREFETCH_HITRATE :       -nan
+
+SIM_2L1DWRITEBACK_ACCESS :          0
+SIM_2L1DWRITEBACK_HITS :          0
+SIM_2L1DWRITEBACK_MISSES :          0
+SIM_2L1DWRITEBACK_HITRATE :       -nan
+ ------------ 
+ ------------ 
+SIM_2L1ITOTAL_ACCESS :    9338245
+SIM_2L1ITOTAL_HITS :    9336371
+SIM_2L1ITOTAL_MISSES :       1874
+SIM_2L1ITOTAL_HITRATE :   0.999799
+
+SIM_2L1ILOAD_ACCESS :    9338245
+SIM_2L1ILOAD_HITS :    9336371
+SIM_2L1ILOAD_MISSES :       1874
+SIM_2L1ILOAD_HITRATE :   0.999799
+
+SIM_2L1IRFO_ACCESS :          0
+SIM_2L1IRFO_HITS :          0
+SIM_2L1IRFO_MISSES :          0
+SIM_2L1IRFO_HITRATE :       -nan
+
+SIM_2L1IPREFETCH_ACCESS :          0
+SIM_2L1IPREFETCH_HITS :          0
+SIM_2L1IPREFETCH_MISSES :          0
+SIM_2L1IPREFETCH_HITRATE :       -nan
+
+SIM_2L1IWRITEBACK_ACCESS :          0
+SIM_2L1IWRITEBACK_HITS :          0
+SIM_2L1IWRITEBACK_MISSES :          0
+SIM_2L1IWRITEBACK_HITRATE :       -nan
+ ------------ 
+ ------------ 
+SIM_2L2CTOTAL_ACCESS :     684637
+SIM_2L2CTOTAL_HITS :     358387
+SIM_2L2CTOTAL_MISSES :     326250
+SIM_2L2CTOTAL_HITRATE :    0.52347
+
+SIM_2L2CLOAD_ACCESS :     379898
+SIM_2L2CLOAD_HITS :     147729
+SIM_2L2CLOAD_MISSES :     232169
+SIM_2L2CLOAD_HITRATE :   0.388865
+
+SIM_2L2CRFO_ACCESS :      94439
+SIM_2L2CRFO_HITS :       6832
+SIM_2L2CRFO_MISSES :      87607
+SIM_2L2CRFO_HITRATE :   0.072343
+
+SIM_2L2CPREFETCH_ACCESS :          0
+SIM_2L2CPREFETCH_HITS :          0
+SIM_2L2CPREFETCH_MISSES :          0
+SIM_2L2CPREFETCH_HITRATE :       -nan
+
+SIM_2L2CWRITEBACK_ACCESS :     210300
+SIM_2L2CWRITEBACK_HITS :     203826
+SIM_2L2CWRITEBACK_MISSES :       6474
+SIM_2L2CWRITEBACK_HITRATE :   0.969215
+ ------------ 
+ ------------ 
+SIM_2LLCTOTAL_ACCESS :     515490
+SIM_2LLCTOTAL_HITS :     290298
+SIM_2LLCTOTAL_MISSES :     225192
+SIM_2LLCTOTAL_HITRATE :    0.56315
+
+SIM_2LLCLOAD_ACCESS :     232162
+SIM_2LLCLOAD_HITS :     103829
+SIM_2LLCLOAD_MISSES :     128333
+SIM_2LLCLOAD_HITRATE :   0.447227
+
+SIM_2LLCRFO_ACCESS :      87603
+SIM_2LLCRFO_HITS :       4980
+SIM_2LLCRFO_MISSES :      82623
+SIM_2LLCRFO_HITRATE :  0.0568474
+
+SIM_2LLCPREFETCH_ACCESS :          0
+SIM_2LLCPREFETCH_HITS :          0
+SIM_2LLCPREFETCH_MISSES :          0
+SIM_2LLCPREFETCH_HITRATE :       -nan
+
+SIM_2LLCWRITEBACK_ACCESS :     195725
+SIM_2LLCWRITEBACK_HITS :     181489
+SIM_2LLCWRITEBACK_MISSES :      14236
+SIM_2LLCWRITEBACK_HITRATE :   0.927265
+ ------------ 
+
+SIMCPU3_Cumulative_IPC : 0.333818
+SIMCPU3_Instructions : 40001467
+SIMCPU3_Cycles : 119830219
+ ------------ 
+SIM_3L1DTOTAL_ACCESS :   11701403
+SIM_3L1DTOTAL_HITS :   11228917
+SIM_3L1DTOTAL_MISSES :     472486
+SIM_3L1DTOTAL_HITRATE :   0.959621
+
+SIM_3L1DLOAD_ACCESS :    7708569
+SIM_3L1DLOAD_HITS :    7330539
+SIM_3L1DLOAD_MISSES :     378030
+SIM_3L1DLOAD_HITRATE :    0.95096
+
+SIM_3L1DRFO_ACCESS :    3992834
+SIM_3L1DRFO_HITS :    3898378
+SIM_3L1DRFO_MISSES :      94456
+SIM_3L1DRFO_HITRATE :   0.976344
+
+SIM_3L1DPREFETCH_ACCESS :          0
+SIM_3L1DPREFETCH_HITS :          0
+SIM_3L1DPREFETCH_MISSES :          0
+SIM_3L1DPREFETCH_HITRATE :       -nan
+
+SIM_3L1DWRITEBACK_ACCESS :          0
+SIM_3L1DWRITEBACK_HITS :          0
+SIM_3L1DWRITEBACK_MISSES :          0
+SIM_3L1DWRITEBACK_HITRATE :       -nan
+ ------------ 
+ ------------ 
+SIM_3L1ITOTAL_ACCESS :    9331183
+SIM_3L1ITOTAL_HITS :    9329309
+SIM_3L1ITOTAL_MISSES :       1874
+SIM_3L1ITOTAL_HITRATE :   0.999799
+
+SIM_3L1ILOAD_ACCESS :    9331183
+SIM_3L1ILOAD_HITS :    9329309
+SIM_3L1ILOAD_MISSES :       1874
+SIM_3L1ILOAD_HITRATE :   0.999799
+
+SIM_3L1IRFO_ACCESS :          0
+SIM_3L1IRFO_HITS :          0
+SIM_3L1IRFO_MISSES :          0
+SIM_3L1IRFO_HITRATE :       -nan
+
+SIM_3L1IPREFETCH_ACCESS :          0
+SIM_3L1IPREFETCH_HITS :          0
+SIM_3L1IPREFETCH_MISSES :          0
+SIM_3L1IPREFETCH_HITRATE :       -nan
+
+SIM_3L1IWRITEBACK_ACCESS :          0
+SIM_3L1IWRITEBACK_HITS :          0
+SIM_3L1IWRITEBACK_MISSES :          0
+SIM_3L1IWRITEBACK_HITRATE :       -nan
+ ------------ 
+ ------------ 
+SIM_3L2CTOTAL_ACCESS :     684635
+SIM_3L2CTOTAL_HITS :     359071
+SIM_3L2CTOTAL_MISSES :     325564
+SIM_3L2CTOTAL_HITRATE :   0.524471
+
+SIM_3L2CLOAD_ACCESS :     379902
+SIM_3L2CLOAD_HITS :     148774
+SIM_3L2CLOAD_MISSES :     231128
+SIM_3L2CLOAD_HITRATE :   0.391612
+
+SIM_3L2CRFO_ACCESS :      94435
+SIM_3L2CRFO_HITS :       6774
+SIM_3L2CRFO_MISSES :      87661
+SIM_3L2CRFO_HITRATE :  0.0717319
+
+SIM_3L2CPREFETCH_ACCESS :          0
+SIM_3L2CPREFETCH_HITS :          0
+SIM_3L2CPREFETCH_MISSES :          0
+SIM_3L2CPREFETCH_HITRATE :       -nan
+
+SIM_3L2CWRITEBACK_ACCESS :     210298
+SIM_3L2CWRITEBACK_HITS :     203523
+SIM_3L2CWRITEBACK_MISSES :       6775
+SIM_3L2CWRITEBACK_HITRATE :   0.967784
+ ------------ 
+ ------------ 
+SIM_3LLCTOTAL_ACCESS :     515203
+SIM_3LLCTOTAL_HITS :     289361
+SIM_3LLCTOTAL_MISSES :     225842
+SIM_3LLCTOTAL_HITRATE :   0.561645
+
+SIM_3LLCLOAD_ACCESS :     231119
+SIM_3LLCLOAD_HITS :     102455
+SIM_3LLCLOAD_MISSES :     128664
+SIM_3LLCLOAD_HITRATE :     0.4433
+
+SIM_3LLCRFO_ACCESS :      87661
+SIM_3LLCRFO_HITS :       5068
+SIM_3LLCRFO_MISSES :      82593
+SIM_3LLCRFO_HITRATE :  0.0578136
+
+SIM_3LLCPREFETCH_ACCESS :          0
+SIM_3LLCPREFETCH_HITS :          0
+SIM_3LLCPREFETCH_MISSES :          0
+SIM_3LLCPREFETCH_HITRATE :       -nan
+
+SIM_3LLCWRITEBACK_ACCESS :     196423
+SIM_3LLCWRITEBACK_HITS :     181838
+SIM_3LLCWRITEBACK_MISSES :      14585
+SIM_3LLCWRITEBACK_HITRATE :   0.925747
+ ------------ 
+ ------------ 
+SIM_LLCTOTAL_ACCESS :    2068852
+SIM_LLCTOTAL_HITS :    1158637
+SIM_LLCTOTAL_MISSES :     903652
+SIM_LLCTOTAL_HITRATE :   0.560039
+
+SIM_LLCLOAD_ACCESS :     926875
+SIM_LLCLOAD_HITS :     413145
+SIM_LLCLOAD_MISSES :     513730
+SIM_LLCLOAD_HITRATE :    0.44574
+
+SIM_LLCRFO_ACCESS :     350316
+SIM_LLCRFO_HITS :      19895
+SIM_LLCRFO_MISSES :     330421
+SIM_LLCRFO_HITRATE :  0.0567916
+
+SIM_LLCPREFETCH_ACCESS :          0
+SIM_LLCPREFETCH_HITS :          0
+SIM_LLCPREFETCH_MISSES :          0
+SIM_LLCPREFETCH_HITRATE :       -nan
+
+SIM_LLCWRITEBACK_ACCESS :     785098
+SIM_LLCWRITEBACK_HITS :     725597
+SIM_LLCWRITEBACK_MISSES :      59501
+SIM_LLCWRITEBACK_HITRATE :   0.924212
+ ------------ 
+
+Region of Interest Statistics
+
+ROICPU0_Cumulative_IPC : 0.333806
+ROICPU0_Instructions : 40000000
+ROICPU0_Cycles : 119830219
+ ------------ 
+ROI_0L1DTOTAL_ACCESS :   11711717
+ROI_0L1DTOTAL_HITS :   11239254
+ROI_0L1DTOTAL_MISSES :     472463
+ROI_0L1DTOTAL_HITRATE :   0.959659
+
+ROI_0L1DLOAD_ACCESS :    7711304
+ROI_0L1DLOAD_HITS :    7333292
+ROI_0L1DLOAD_MISSES :     378012
+ROI_0L1DLOAD_HITRATE :   0.950979
+
+ROI_0L1DRFO_ACCESS :    4000413
+ROI_0L1DRFO_HITS :    3905962
+ROI_0L1DRFO_MISSES :      94451
+ROI_0L1DRFO_HITRATE :    0.97639
+
+ROI_0L1DPREFETCH_ACCESS :          0
+ROI_0L1DPREFETCH_HITS :          0
+ROI_0L1DPREFETCH_MISSES :          0
+ROI_0L1DPREFETCH_HITRATE :       -nan
+
+ROI_0L1DWRITEBACK_ACCESS :          0
+ROI_0L1DWRITEBACK_HITS :          0
+ROI_0L1DWRITEBACK_MISSES :          0
+ROI_0L1DWRITEBACK_HITRATE :       -nan
+
+ROI_0L1DPREFETCH_REQUESTED :          0
+ROI_0L1DPREFETCH_ISSUED :          0
+ROI_0L1DPREFETCH_USEFUL :          0
+ROI_0L1DPREFETCH_USELESS :          0
+ROI_0L1DPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_0L1DPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_0L1DAVERAGE_MISS_LATENCY : 1032.26
+ ------------ 
+ ------------ 
+ROI_0L1ITOTAL_ACCESS :    9330046
+ROI_0L1ITOTAL_HITS :    9328172
+ROI_0L1ITOTAL_MISSES :       1874
+ROI_0L1ITOTAL_HITRATE :   0.999799
+
+ROI_0L1ILOAD_ACCESS :    9330046
+ROI_0L1ILOAD_HITS :    9328172
+ROI_0L1ILOAD_MISSES :       1874
+ROI_0L1ILOAD_HITRATE :   0.999799
+
+ROI_0L1IRFO_ACCESS :          0
+ROI_0L1IRFO_HITS :          0
+ROI_0L1IRFO_MISSES :          0
+ROI_0L1IRFO_HITRATE :       -nan
+
+ROI_0L1IPREFETCH_ACCESS :          0
+ROI_0L1IPREFETCH_HITS :          0
+ROI_0L1IPREFETCH_MISSES :          0
+ROI_0L1IPREFETCH_HITRATE :       -nan
+
+ROI_0L1IWRITEBACK_ACCESS :          0
+ROI_0L1IWRITEBACK_HITS :          0
+ROI_0L1IWRITEBACK_MISSES :          0
+ROI_0L1IWRITEBACK_HITRATE :       -nan
+
+ROI_0L1IPREFETCH_REQUESTED :          0
+ROI_0L1IPREFETCH_ISSUED :          0
+ROI_0L1IPREFETCH_USEFUL :          0
+ROI_0L1IPREFETCH_USELESS :          0
+ROI_0L1IPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_0L1IPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_0L1IAVERAGE_MISS_LATENCY : 385.318
+ ------------ 
+ ------------ 
+ROI_0L2CTOTAL_ACCESS :     684607
+ROI_0L2CTOTAL_HITS :     357799
+ROI_0L2CTOTAL_MISSES :     326808
+ROI_0L2CTOTAL_HITRATE :   0.522634
+
+ROI_0L2CLOAD_ACCESS :     379881
+ROI_0L2CLOAD_HITS :     147044
+ROI_0L2CLOAD_MISSES :     232837
+ROI_0L2CLOAD_HITRATE :   0.387079
+
+ROI_0L2CRFO_ACCESS :      94428
+ROI_0L2CRFO_HITS :       7334
+ROI_0L2CRFO_MISSES :      87094
+ROI_0L2CRFO_HITRATE :  0.0776676
+
+ROI_0L2CPREFETCH_ACCESS :          0
+ROI_0L2CPREFETCH_HITS :          0
+ROI_0L2CPREFETCH_MISSES :          0
+ROI_0L2CPREFETCH_HITRATE :       -nan
+
+ROI_0L2CWRITEBACK_ACCESS :     210298
+ROI_0L2CWRITEBACK_HITS :     203421
+ROI_0L2CWRITEBACK_MISSES :       6877
+ROI_0L2CWRITEBACK_HITRATE :   0.967299
+
+ROI_0L2CPREFETCH_REQUESTED :          0
+ROI_0L2CPREFETCH_ISSUED :          0
+ROI_0L2CPREFETCH_USEFUL :          0
+ROI_0L2CPREFETCH_USELESS :          0
+ROI_0L2CPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_0L2CPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_0L2CAVERAGE_MISS_LATENCY : 1469.38
+ ------------ 
+ ------------ 
+ROI_0LLCTOTAL_ACCESS :     516262
+ROI_0LLCTOTAL_HITS :     290237
+ROI_0LLCTOTAL_MISSES :     226025
+ROI_0LLCTOTAL_HITRATE :   0.562189
+
+ROI_0LLCLOAD_ACCESS :     232832
+ROI_0LLCLOAD_HITS :     104360
+ROI_0LLCLOAD_MISSES :     128472
+ROI_0LLCLOAD_HITRATE :    0.44822
+
+ROI_0LLCRFO_ACCESS :      87094
+ROI_0LLCRFO_HITS :       4485
+ROI_0LLCRFO_MISSES :      82609
+ROI_0LLCRFO_HITRATE :  0.0514961
+
+ROI_0LLCPREFETCH_ACCESS :          0
+ROI_0LLCPREFETCH_HITS :          0
+ROI_0LLCPREFETCH_MISSES :          0
+ROI_0LLCPREFETCH_HITRATE :       -nan
+
+ROI_0LLCWRITEBACK_ACCESS :     196336
+ROI_0LLCWRITEBACK_HITS :     181392
+ROI_0LLCWRITEBACK_MISSES :      14944
+ROI_0LLCWRITEBACK_HITRATE :   0.923886
+
+ROI_0LLCPREFETCH_REQUESTED :          0
+ROI_0LLCPREFETCH_ISSUED :          0
+ROI_0LLCPREFETCH_USEFUL :          0
+ROI_0LLCPREFETCH_USELESS :          0
+ROI_0LLCPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_0LLCPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_0LLCAVERAGE_MISS_LATENCY : 8085.44
+ ------------ 
+Major_fault: 0
+ Minor_fault: 6725
+
+ROICPU1_Cumulative_IPC : 0.335911
+ROICPU1_Instructions : 40000000
+ROICPU1_Cycles : 119079076
+ ------------ 
+ROI_1L1DTOTAL_ACCESS :   11699760
+ROI_1L1DTOTAL_HITS :   11227280
+ROI_1L1DTOTAL_MISSES :     472480
+ROI_1L1DTOTAL_HITRATE :   0.959616
+
+ROI_1L1DLOAD_ACCESS :    7710782
+ROI_1L1DLOAD_HITS :    7332753
+ROI_1L1DLOAD_MISSES :     378029
+ROI_1L1DLOAD_HITRATE :   0.950974
+
+ROI_1L1DRFO_ACCESS :    3988978
+ROI_1L1DRFO_HITS :    3894527
+ROI_1L1DRFO_MISSES :      94451
+ROI_1L1DRFO_HITRATE :   0.976322
+
+ROI_1L1DPREFETCH_ACCESS :          0
+ROI_1L1DPREFETCH_HITS :          0
+ROI_1L1DPREFETCH_MISSES :          0
+ROI_1L1DPREFETCH_HITRATE :       -nan
+
+ROI_1L1DWRITEBACK_ACCESS :          0
+ROI_1L1DWRITEBACK_HITS :          0
+ROI_1L1DWRITEBACK_MISSES :          0
+ROI_1L1DWRITEBACK_HITRATE :       -nan
+
+ROI_1L1DPREFETCH_REQUESTED :          0
+ROI_1L1DPREFETCH_ISSUED :          0
+ROI_1L1DPREFETCH_USEFUL :          0
+ROI_1L1DPREFETCH_USELESS :          0
+ROI_1L1DPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_1L1DPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_1L1DAVERAGE_MISS_LATENCY : 973.73
+ ------------ 
+ ------------ 
+ROI_1L1ITOTAL_ACCESS :    9332314
+ROI_1L1ITOTAL_HITS :    9330440
+ROI_1L1ITOTAL_MISSES :       1874
+ROI_1L1ITOTAL_HITRATE :   0.999799
+
+ROI_1L1ILOAD_ACCESS :    9332314
+ROI_1L1ILOAD_HITS :    9330440
+ROI_1L1ILOAD_MISSES :       1874
+ROI_1L1ILOAD_HITRATE :   0.999799
+
+ROI_1L1IRFO_ACCESS :          0
+ROI_1L1IRFO_HITS :          0
+ROI_1L1IRFO_MISSES :          0
+ROI_1L1IRFO_HITRATE :       -nan
+
+ROI_1L1IPREFETCH_ACCESS :          0
+ROI_1L1IPREFETCH_HITS :          0
+ROI_1L1IPREFETCH_MISSES :          0
+ROI_1L1IPREFETCH_HITRATE :       -nan
+
+ROI_1L1IWRITEBACK_ACCESS :          0
+ROI_1L1IWRITEBACK_HITS :          0
+ROI_1L1IWRITEBACK_MISSES :          0
+ROI_1L1IWRITEBACK_HITRATE :       -nan
+
+ROI_1L1IPREFETCH_REQUESTED :          0
+ROI_1L1IPREFETCH_ISSUED :          0
+ROI_1L1IPREFETCH_USEFUL :          0
+ROI_1L1IPREFETCH_USELESS :          0
+ROI_1L1IPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_1L1IPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_1L1IAVERAGE_MISS_LATENCY : 388.207
+ ------------ 
+ ------------ 
+ROI_1L2CTOTAL_ACCESS :     684622
+ROI_1L2CTOTAL_HITS :     359651
+ROI_1L2CTOTAL_MISSES :     324971
+ROI_1L2CTOTAL_HITRATE :   0.525328
+
+ROI_1L2CLOAD_ACCESS :     379903
+ROI_1L2CLOAD_HITS :     149147
+ROI_1L2CLOAD_MISSES :     230756
+ROI_1L2CLOAD_HITRATE :   0.392592
+
+ROI_1L2CRFO_ACCESS :      94435
+ROI_1L2CRFO_HITS :       6477
+ROI_1L2CRFO_MISSES :      87958
+ROI_1L2CRFO_HITRATE :  0.0685869
+
+ROI_1L2CPREFETCH_ACCESS :          0
+ROI_1L2CPREFETCH_HITS :          0
+ROI_1L2CPREFETCH_MISSES :          0
+ROI_1L2CPREFETCH_HITRATE :       -nan
+
+ROI_1L2CWRITEBACK_ACCESS :     210284
+ROI_1L2CWRITEBACK_HITS :     204027
+ROI_1L2CWRITEBACK_MISSES :       6257
+ROI_1L2CWRITEBACK_HITRATE :   0.970245
+
+ROI_1L2CPREFETCH_REQUESTED :          0
+ROI_1L2CPREFETCH_ISSUED :          0
+ROI_1L2CPREFETCH_USEFUL :          0
+ROI_1L2CPREFETCH_USELESS :          0
+ROI_1L2CPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_1L2CPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_1L2CAVERAGE_MISS_LATENCY : 1392.65
+ ------------ 
+ ------------ 
+ROI_1LLCTOTAL_ACCESS :     515312
+ROI_1LLCTOTAL_HITS :     288720
+ROI_1LLCTOTAL_MISSES :     226592
+ROI_1LLCTOTAL_HITRATE :   0.560282
+
+ROI_1LLCLOAD_ACCESS :     230751
+ROI_1LLCLOAD_HITS :     102491
+ROI_1LLCLOAD_MISSES :     128260
+ROI_1LLCLOAD_HITRATE :   0.444163
+
+ROI_1LLCRFO_ACCESS :      87958
+ROI_1LLCRFO_HITS :       5362
+ROI_1LLCRFO_MISSES :      82596
+ROI_1LLCRFO_HITRATE :  0.0609609
+
+ROI_1LLCPREFETCH_ACCESS :          0
+ROI_1LLCPREFETCH_HITS :          0
+ROI_1LLCPREFETCH_MISSES :          0
+ROI_1LLCPREFETCH_HITRATE :       -nan
+
+ROI_1LLCWRITEBACK_ACCESS :     196603
+ROI_1LLCWRITEBACK_HITS :     180867
+ROI_1LLCWRITEBACK_MISSES :      15736
+ROI_1LLCWRITEBACK_HITRATE :   0.919961
+
+ROI_1LLCPREFETCH_REQUESTED :          0
+ROI_1LLCPREFETCH_ISSUED :          0
+ROI_1LLCPREFETCH_USEFUL :          0
+ROI_1LLCPREFETCH_USELESS :          0
+ROI_1LLCPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_1LLCPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_1LLCAVERAGE_MISS_LATENCY : 8065.2
+ ------------ 
+Major_fault: 0
+ Minor_fault: 6725
+
+ROICPU2_Cumulative_IPC : 0.333885
+ROICPU2_Instructions : 40000003
+ROICPU2_Cycles : 119801806
+ ------------ 
+ROI_2L1DTOTAL_ACCESS :   11715454
+ROI_2L1DTOTAL_HITS :   11242971
+ROI_2L1DTOTAL_MISSES :     472483
+ROI_2L1DTOTAL_HITRATE :    0.95967
+
+ROI_2L1DLOAD_ACCESS :    7712058
+ROI_2L1DLOAD_HITS :    7334034
+ROI_2L1DLOAD_MISSES :     378024
+ROI_2L1DLOAD_HITRATE :   0.950983
+
+ROI_2L1DRFO_ACCESS :    4003396
+ROI_2L1DRFO_HITS :    3908937
+ROI_2L1DRFO_MISSES :      94459
+ROI_2L1DRFO_HITRATE :   0.976405
+
+ROI_2L1DPREFETCH_ACCESS :          0
+ROI_2L1DPREFETCH_HITS :          0
+ROI_2L1DPREFETCH_MISSES :          0
+ROI_2L1DPREFETCH_HITRATE :       -nan
+
+ROI_2L1DWRITEBACK_ACCESS :          0
+ROI_2L1DWRITEBACK_HITS :          0
+ROI_2L1DWRITEBACK_MISSES :          0
+ROI_2L1DWRITEBACK_HITRATE :       -nan
+
+ROI_2L1DPREFETCH_REQUESTED :          0
+ROI_2L1DPREFETCH_ISSUED :          0
+ROI_2L1DPREFETCH_USEFUL :          0
+ROI_2L1DPREFETCH_USELESS :          0
+ROI_2L1DPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_2L1DPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_2L1DAVERAGE_MISS_LATENCY : 1028.99
+ ------------ 
+ ------------ 
+ROI_2L1ITOTAL_ACCESS :    9331064
+ROI_2L1ITOTAL_HITS :    9329190
+ROI_2L1ITOTAL_MISSES :       1874
+ROI_2L1ITOTAL_HITRATE :   0.999799
+
+ROI_2L1ILOAD_ACCESS :    9331064
+ROI_2L1ILOAD_HITS :    9329190
+ROI_2L1ILOAD_MISSES :       1874
+ROI_2L1ILOAD_HITRATE :   0.999799
+
+ROI_2L1IRFO_ACCESS :          0
+ROI_2L1IRFO_HITS :          0
+ROI_2L1IRFO_MISSES :          0
+ROI_2L1IRFO_HITRATE :       -nan
+
+ROI_2L1IPREFETCH_ACCESS :          0
+ROI_2L1IPREFETCH_HITS :          0
+ROI_2L1IPREFETCH_MISSES :          0
+ROI_2L1IPREFETCH_HITRATE :       -nan
+
+ROI_2L1IWRITEBACK_ACCESS :          0
+ROI_2L1IWRITEBACK_HITS :          0
+ROI_2L1IWRITEBACK_MISSES :          0
+ROI_2L1IWRITEBACK_HITRATE :       -nan
+
+ROI_2L1IPREFETCH_REQUESTED :          0
+ROI_2L1IPREFETCH_ISSUED :          0
+ROI_2L1IPREFETCH_USEFUL :          0
+ROI_2L1IPREFETCH_USELESS :          0
+ROI_2L1IPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_2L1IPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_2L1IAVERAGE_MISS_LATENCY : 376.409
+ ------------ 
+ ------------ 
+ROI_2L2CTOTAL_ACCESS :     684635
+ROI_2L2CTOTAL_HITS :     358386
+ROI_2L2CTOTAL_MISSES :     326249
+ROI_2L2CTOTAL_HITRATE :    0.52347
+
+ROI_2L2CLOAD_ACCESS :     379897
+ROI_2L2CLOAD_HITS :     147729
+ROI_2L2CLOAD_MISSES :     232168
+ROI_2L2CLOAD_HITRATE :   0.388866
+
+ROI_2L2CRFO_ACCESS :      94439
+ROI_2L2CRFO_HITS :       6832
+ROI_2L2CRFO_MISSES :      87607
+ROI_2L2CRFO_HITRATE :   0.072343
+
+ROI_2L2CPREFETCH_ACCESS :          0
+ROI_2L2CPREFETCH_HITS :          0
+ROI_2L2CPREFETCH_MISSES :          0
+ROI_2L2CPREFETCH_HITRATE :       -nan
+
+ROI_2L2CWRITEBACK_ACCESS :     210299
+ROI_2L2CWRITEBACK_HITS :     203825
+ROI_2L2CWRITEBACK_MISSES :       6474
+ROI_2L2CWRITEBACK_HITRATE :   0.969215
+
+ROI_2L2CPREFETCH_REQUESTED :          0
+ROI_2L2CPREFETCH_ISSUED :          0
+ROI_2L2CPREFETCH_USEFUL :          0
+ROI_2L2CPREFETCH_USELESS :          0
+ROI_2L2CPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_2L2CPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_2L2CAVERAGE_MISS_LATENCY : 1467.17
+ ------------ 
+ ------------ 
+ROI_2LLCTOTAL_ACCESS :     515488
+ROI_2LLCTOTAL_HITS :     290296
+ROI_2LLCTOTAL_MISSES :     225192
+ROI_2LLCTOTAL_HITRATE :   0.563148
+
+ROI_2LLCLOAD_ACCESS :     232161
+ROI_2LLCLOAD_HITS :     103828
+ROI_2LLCLOAD_MISSES :     128333
+ROI_2LLCLOAD_HITRATE :   0.447224
+
+ROI_2LLCRFO_ACCESS :      87603
+ROI_2LLCRFO_HITS :       4980
+ROI_2LLCRFO_MISSES :      82623
+ROI_2LLCRFO_HITRATE :  0.0568474
+
+ROI_2LLCPREFETCH_ACCESS :          0
+ROI_2LLCPREFETCH_HITS :          0
+ROI_2LLCPREFETCH_MISSES :          0
+ROI_2LLCPREFETCH_HITRATE :       -nan
+
+ROI_2LLCWRITEBACK_ACCESS :     195724
+ROI_2LLCWRITEBACK_HITS :     181488
+ROI_2LLCWRITEBACK_MISSES :      14236
+ROI_2LLCWRITEBACK_HITRATE :   0.927265
+
+ROI_2LLCPREFETCH_REQUESTED :          0
+ROI_2LLCPREFETCH_ISSUED :          0
+ROI_2LLCPREFETCH_USEFUL :          0
+ROI_2LLCPREFETCH_USELESS :          0
+ROI_2LLCPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_2LLCPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_2LLCAVERAGE_MISS_LATENCY : 8115.34
+ ------------ 
+Major_fault: 0
+ Minor_fault: 6725
+
+ROICPU3_Cumulative_IPC : 0.333809
+ROICPU3_Instructions : 40000001
+ROICPU3_Cycles : 119829126
+ ------------ 
+ROI_3L1DTOTAL_ACCESS :   11701056
+ROI_3L1DTOTAL_HITS :   11228570
+ROI_3L1DTOTAL_MISSES :     472486
+ROI_3L1DTOTAL_HITRATE :    0.95962
+
+ROI_3L1DLOAD_ACCESS :    7708334
+ROI_3L1DLOAD_HITS :    7330304
+ROI_3L1DLOAD_MISSES :     378030
+ROI_3L1DLOAD_HITRATE :   0.950958
+
+ROI_3L1DRFO_ACCESS :    3992722
+ROI_3L1DRFO_HITS :    3898266
+ROI_3L1DRFO_MISSES :      94456
+ROI_3L1DRFO_HITRATE :   0.976343
+
+ROI_3L1DPREFETCH_ACCESS :          0
+ROI_3L1DPREFETCH_HITS :          0
+ROI_3L1DPREFETCH_MISSES :          0
+ROI_3L1DPREFETCH_HITRATE :       -nan
+
+ROI_3L1DWRITEBACK_ACCESS :          0
+ROI_3L1DWRITEBACK_HITS :          0
+ROI_3L1DWRITEBACK_MISSES :          0
+ROI_3L1DWRITEBACK_HITRATE :       -nan
+
+ROI_3L1DPREFETCH_REQUESTED :          0
+ROI_3L1DPREFETCH_ISSUED :          0
+ROI_3L1DPREFETCH_USEFUL :          0
+ROI_3L1DPREFETCH_USELESS :          0
+ROI_3L1DPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_3L1DPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_3L1DAVERAGE_MISS_LATENCY : 1010.47
+ ------------ 
+ ------------ 
+ROI_3L1ITOTAL_ACCESS :    9330843
+ROI_3L1ITOTAL_HITS :    9328969
+ROI_3L1ITOTAL_MISSES :       1874
+ROI_3L1ITOTAL_HITRATE :   0.999799
+
+ROI_3L1ILOAD_ACCESS :    9330843
+ROI_3L1ILOAD_HITS :    9328969
+ROI_3L1ILOAD_MISSES :       1874
+ROI_3L1ILOAD_HITRATE :   0.999799
+
+ROI_3L1IRFO_ACCESS :          0
+ROI_3L1IRFO_HITS :          0
+ROI_3L1IRFO_MISSES :          0
+ROI_3L1IRFO_HITRATE :       -nan
+
+ROI_3L1IPREFETCH_ACCESS :          0
+ROI_3L1IPREFETCH_HITS :          0
+ROI_3L1IPREFETCH_MISSES :          0
+ROI_3L1IPREFETCH_HITRATE :       -nan
+
+ROI_3L1IWRITEBACK_ACCESS :          0
+ROI_3L1IWRITEBACK_HITS :          0
+ROI_3L1IWRITEBACK_MISSES :          0
+ROI_3L1IWRITEBACK_HITRATE :       -nan
+
+ROI_3L1IPREFETCH_REQUESTED :          0
+ROI_3L1IPREFETCH_ISSUED :          0
+ROI_3L1IPREFETCH_USEFUL :          0
+ROI_3L1IPREFETCH_USELESS :          0
+ROI_3L1IPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_3L1IPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_3L1IAVERAGE_MISS_LATENCY : 397.974
+ ------------ 
+ ------------ 
+ROI_3L2CTOTAL_ACCESS :     684635
+ROI_3L2CTOTAL_HITS :     359071
+ROI_3L2CTOTAL_MISSES :     325564
+ROI_3L2CTOTAL_HITRATE :   0.524471
+
+ROI_3L2CLOAD_ACCESS :     379902
+ROI_3L2CLOAD_HITS :     148774
+ROI_3L2CLOAD_MISSES :     231128
+ROI_3L2CLOAD_HITRATE :   0.391612
+
+ROI_3L2CRFO_ACCESS :      94435
+ROI_3L2CRFO_HITS :       6774
+ROI_3L2CRFO_MISSES :      87661
+ROI_3L2CRFO_HITRATE :  0.0717319
+
+ROI_3L2CPREFETCH_ACCESS :          0
+ROI_3L2CPREFETCH_HITS :          0
+ROI_3L2CPREFETCH_MISSES :          0
+ROI_3L2CPREFETCH_HITRATE :       -nan
+
+ROI_3L2CWRITEBACK_ACCESS :     210298
+ROI_3L2CWRITEBACK_HITS :     203523
+ROI_3L2CWRITEBACK_MISSES :       6775
+ROI_3L2CWRITEBACK_HITRATE :   0.967784
+
+ROI_3L2CPREFETCH_REQUESTED :          0
+ROI_3L2CPREFETCH_ISSUED :          0
+ROI_3L2CPREFETCH_USEFUL :          0
+ROI_3L2CPREFETCH_USELESS :          0
+ROI_3L2CPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_3L2CPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_3L2CAVERAGE_MISS_LATENCY : 1443.51
+ ------------ 
+ ------------ 
+ROI_3LLCTOTAL_ACCESS :     515203
+ROI_3LLCTOTAL_HITS :     289361
+ROI_3LLCTOTAL_MISSES :     225842
+ROI_3LLCTOTAL_HITRATE :   0.561645
+
+ROI_3LLCLOAD_ACCESS :     231119
+ROI_3LLCLOAD_HITS :     102455
+ROI_3LLCLOAD_MISSES :     128664
+ROI_3LLCLOAD_HITRATE :     0.4433
+
+ROI_3LLCRFO_ACCESS :      87661
+ROI_3LLCRFO_HITS :       5068
+ROI_3LLCRFO_MISSES :      82593
+ROI_3LLCRFO_HITRATE :  0.0578136
+
+ROI_3LLCPREFETCH_ACCESS :          0
+ROI_3LLCPREFETCH_HITS :          0
+ROI_3LLCPREFETCH_MISSES :          0
+ROI_3LLCPREFETCH_HITRATE :       -nan
+
+ROI_3LLCWRITEBACK_ACCESS :     196423
+ROI_3LLCWRITEBACK_HITS :     181838
+ROI_3LLCWRITEBACK_MISSES :      14585
+ROI_3LLCWRITEBACK_HITRATE :   0.925747
+
+ROI_3LLCPREFETCH_REQUESTED :          0
+ROI_3LLCPREFETCH_ISSUED :          0
+ROI_3LLCPREFETCH_USEFUL :          0
+ROI_3LLCPREFETCH_USELESS :          0
+ROI_3LLCPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_3LLCPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_3LLCAVERAGE_MISS_LATENCY : 8091.99
+ ------------ 
+Major_fault: 0
+ Minor_fault: 6725
+
+--------------------- 
+
+ROI_Cumulative_IPC : 0.33435
+ROICPU_Instructions : 160000004
+ROICPU_Cycles : 478540227
+
+--------------------- 
+ ------------ 
+ROI_LLCTOTAL_ACCESS :    2062265
+ROI_LLCTOTAL_HITS :    1158614
+ROI_LLCTOTAL_MISSES :     903651
+ROI_LLCTOTAL_HITRATE :   0.561816
+
+ROI_LLCLOAD_ACCESS :     926863
+ROI_LLCLOAD_HITS :     413134
+ROI_LLCLOAD_MISSES :     513729
+ROI_LLCLOAD_HITRATE :   0.445734
+
+ROI_LLCRFO_ACCESS :     350316
+ROI_LLCRFO_HITS :      19895
+ROI_LLCRFO_MISSES :     330421
+ROI_LLCRFO_HITRATE :  0.0567916
+
+ROI_LLCPREFETCH_ACCESS :          0
+ROI_LLCPREFETCH_HITS :          0
+ROI_LLCPREFETCH_MISSES :          0
+ROI_LLCPREFETCH_HITRATE :       -nan
+
+ROI_LLCWRITEBACK_ACCESS :     785086
+ROI_LLCWRITEBACK_HITS :     725585
+ROI_LLCWRITEBACK_MISSES :      59501
+ROI_LLCWRITEBACK_HITRATE :   0.924211
+
+ROI_LLCPREFETCH_REQUESTED :          0
+ROI_LLCPREFETCH_ISSUED :          0
+ROI_LLCPREFETCH_USEFUL :          0
+ROI_LLCPREFETCH_USELESS :          0
+ROI_LLCPREFETCH_ISSUED_REQ_RATIO :       -nan
+ROI_LLCPREFETCH_USEFUL_USELESS_RATIO :       -nan
+
+ROI_LLCAVERAGE_MISS_LATENCY : 2022.36
+ ------------ 
+
+--------------------- 
+
+ ------------ 
+
+DRAM_Statistics
+DRAM_CHANNEL_0
+DRAM_RQ ROW_BUFFER_HIT_0 :     126430
+DRAM_RQ_ROW_BUFFER_MISS_0 :     717413
+DRAM_DBUS_CONGESTED_0 :    1409290
+DRAM_WQ_ROW_BUFFER_HIT_0 :     106131
+DRAM_WQ_ROW_BUFFER_MISS_0 :     634891
+DRAM_WQ_FULL_0 :        194
+DRAM_READS0 :     843843
+DRAM_WRITES0 :     741022
+DRAM_READ_INTENSITY0 :   0.532438
+DRAM_WRITE_INTENSITY0 :   0.467562
+DRAM_ACCESSES0 :    1584865
+
+DRAM_AVG_CONGESTED_CYCLE : 38
+
+CPU_0_Branch Prediction Accuracy : 99.6997
+CPU_0_MPKIPERCENT : 0.64051
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 126.372
+
+CPU_0Branch_types
+CPU_0NOT_BRANCH_PERCENT_PERCENT: 78.6695
+CPU_0BRANCH_DIRECT_JUMP_PERCENT : 3.14279
+CPU_0BRANCH_INDIRECT_PERCENT : 0.64535
+CPU_0BRANCH_CONDITIONAL_PERCENT : 16.7659
+CPU_0BRANCH_DIRECT_CALL_PERCENT : 0.354237
+CPU_0BRANCH_INDIRECT_CALL_PERCENT : 0.0338325
+CPU_0BRANCH_RETURN_PERCENT : 0.388075
+CPU_0BRANCH_OTHER_PERCENT : 0
+
+
+CPU_1_Branch Prediction Accuracy : 99.6976
+CPU_1_MPKIPERCENT : 0.645405
+CPU_1_Average_ROB_Occupancy_at_Mispredict : 127.539
+
+CPU_1Branch_types
+CPU_1NOT_BRANCH_PERCENT_PERCENT: 78.6565
+CPU_1BRANCH_DIRECT_JUMP_PERCENT : 3.14791
+CPU_1BRANCH_INDIRECT_PERCENT : 0.660833
+CPU_1BRANCH_CONDITIONAL_PERCENT : 16.7615
+CPU_1BRANCH_DIRECT_CALL_PERCENT : 0.353468
+CPU_1BRANCH_INDIRECT_CALL_PERCENT : 0.033081
+CPU_1BRANCH_RETURN_PERCENT : 0.386542
+CPU_1BRANCH_OTHER_PERCENT : 0
+
+
+CPU_2_Branch Prediction Accuracy : 99.6997
+CPU_2_MPKIPERCENT : 0.64063
+CPU_2_Average_ROB_Occupancy_at_Mispredict : 126.353
+
+CPU_2Branch_types
+CPU_2NOT_BRANCH_PERCENT_PERCENT: 78.6691
+CPU_2BRANCH_DIRECT_JUMP_PERCENT : 3.14293
+CPU_2BRANCH_INDIRECT_PERCENT : 0.645917
+CPU_2BRANCH_CONDITIONAL_PERCENT : 16.7658
+CPU_2BRANCH_DIRECT_CALL_PERCENT : 0.354228
+CPU_2BRANCH_INDIRECT_CALL_PERCENT : 0.0338359
+CPU_2BRANCH_RETURN_PERCENT : 0.388059
+CPU_2BRANCH_OTHER_PERCENT : 0
+
+
+CPU_3_Branch Prediction Accuracy : 99.6997
+CPU_3_MPKIPERCENT : 0.640501
+CPU_3_Average_ROB_Occupancy_at_Mispredict : 126.427
+
+CPU_3Branch_types
+CPU_3NOT_BRANCH_PERCENT_PERCENT: 78.6695
+CPU_3BRANCH_DIRECT_JUMP_PERCENT : 3.14267
+CPU_3BRANCH_INDIRECT_PERCENT : 0.645306
+CPU_3BRANCH_CONDITIONAL_PERCENT : 16.766
+CPU_3BRANCH_DIRECT_CALL_PERCENT : 0.354295
+CPU_3BRANCH_INDIRECT_CALL_PERCENT : 0.0338963
+CPU_3BRANCH_RETURN_PERCENT : 0.388183
+CPU_3BRANCH_OTHER_PERCENT : 0
+
