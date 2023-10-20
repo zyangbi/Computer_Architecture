@@ -31,19 +31,19 @@ Warmup_CPU3_cycles : 333361
 Finished_CPU0_instructions : 4000001
 Finished_CPU0_cycles : 14640964
 Cumulative_IPC0 : 0.273206
- (Simulation time: 0 hr 1 min 18 sec) 
+ (Simulation time: 0 hr 1 min 16 sec) 
 Finished_CPU2_instructions : 4000001
 Finished_CPU2_cycles : 14647843
 Cumulative_IPC2 : 0.273078
- (Simulation time: 0 hr 1 min 18 sec) 
+ (Simulation time: 0 hr 1 min 16 sec) 
 Finished_CPU1_instructions : 4000001
 Finished_CPU1_cycles : 14648084
 Cumulative_IPC1 : 0.273073
- (Simulation time: 0 hr 1 min 18 sec) 
+ (Simulation time: 0 hr 1 min 16 sec) 
 Finished_CPU3_instructions : 4000001
 Finished_CPU3_cycles : 14657653
 Cumulative_IPC3 : 0.272895
- (Simulation time: 0 hr 1 min 18 sec) 
+ (Simulation time: 0 hr 1 min 16 sec) 
 
 ChampSim completed all CPUs
 

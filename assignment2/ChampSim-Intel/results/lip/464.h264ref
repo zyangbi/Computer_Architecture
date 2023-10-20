@@ -17,33 +17,33 @@ CPU 3 runs /home/zi/cpen411/assignment2/ChampSim-Intel/simscript-testing/../spec
 
 Warmup_CPU0_instructions : 1000042
 Warmup_CPU0_cycles : 607063
- (Simulation time: 0 hr 0 min 15 sec) 
+ (Simulation time: 0 hr 0 min 14 sec) 
 Warmup_CPU1_instructions : 1000032
 Warmup_CPU1_cycles : 607063
- (Simulation time: 0 hr 0 min 15 sec) 
+ (Simulation time: 0 hr 0 min 14 sec) 
 Warmup_CPU2_instructions : 1000020
 Warmup_CPU2_cycles : 607063
- (Simulation time: 0 hr 0 min 15 sec) 
+ (Simulation time: 0 hr 0 min 14 sec) 
 Warmup_CPU3_instructions : 1000001
 Warmup_CPU3_cycles : 607063
- (Simulation time: 0 hr 0 min 15 sec) 
+ (Simulation time: 0 hr 0 min 14 sec) 
 
 Finished_CPU2_instructions : 4000002
 Finished_CPU2_cycles : 3457962
 Cumulative_IPC2 : 1.15675
- (Simulation time: 0 hr 1 min 13 sec) 
+ (Simulation time: 0 hr 1 min 11 sec) 
 Finished_CPU1_instructions : 4000002
 Finished_CPU1_cycles : 3458026
 Cumulative_IPC1 : 1.15673
- (Simulation time: 0 hr 1 min 13 sec) 
+ (Simulation time: 0 hr 1 min 11 sec) 
 Finished_CPU0_instructions : 4000000
 Finished_CPU0_cycles : 3467604
 Cumulative_IPC0 : 1.15353
- (Simulation time: 0 hr 1 min 13 sec) 
+ (Simulation time: 0 hr 1 min 11 sec) 
 Finished_CPU3_instructions : 4000001
 Finished_CPU3_cycles : 3469073
 Cumulative_IPC3 : 1.15305
- (Simulation time: 0 hr 1 min 13 sec) 
+ (Simulation time: 0 hr 1 min 12 sec) 
 
 ChampSim completed all CPUs
 
