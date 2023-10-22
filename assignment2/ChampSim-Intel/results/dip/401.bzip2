@@ -17,16 +17,16 @@ CPU 3 runs /home/zi/cpen411/assignment2/ChampSim-Intel/simscript-testing/../spec
 
 Warmup_CPU0_instructions : 1000188
 Warmup_CPU0_cycles : 379044
- (Simulation time: 0 hr 0 min 13 sec) 
+ (Simulation time: 0 hr 0 min 14 sec) 
 Warmup_CPU1_instructions : 1004788
 Warmup_CPU1_cycles : 379044
- (Simulation time: 0 hr 0 min 13 sec) 
+ (Simulation time: 0 hr 0 min 14 sec) 
 Warmup_CPU2_instructions : 1000001
 Warmup_CPU2_cycles : 379044
- (Simulation time: 0 hr 0 min 13 sec) 
+ (Simulation time: 0 hr 0 min 14 sec) 
 Warmup_CPU3_instructions : 1000025
 Warmup_CPU3_cycles : 379043
- (Simulation time: 0 hr 0 min 13 sec) 
+ (Simulation time: 0 hr 0 min 14 sec) 
 
 Finished_CPU3_instructions : 4000000
 Finished_CPU3_cycles : 4586255
@@ -43,7 +43,7 @@ Cumulative_IPC0 : 0.872087
 Finished_CPU1_instructions : 4000000
 Finished_CPU1_cycles : 4593095
 Cumulative_IPC1 : 0.870872
- (Simulation time: 0 hr 0 min 57 sec) 
+ (Simulation time: 0 hr 0 min 58 sec) 
 
 ChampSim completed all CPUs
 
@@ -1146,13 +1146,13 @@ DRAM_RQ ROW_BUFFER_HIT_0 :       2931
 DRAM_RQ_ROW_BUFFER_MISS_0 :       6778
 DRAM_DBUS_CONGESTED_0 :       3830
 DRAM_WQ_ROW_BUFFER_HIT_0 :          5
-DRAM_WQ_ROW_BUFFER_MISS_0 :         23
+DRAM_WQ_ROW_BUFFER_MISS_0 :         24
 DRAM_WQ_FULL_0 :          0
 DRAM_READS0 :       9709
-DRAM_WRITES0 :         28
-DRAM_READ_INTENSITY0 :   0.997124
-DRAM_WRITE_INTENSITY0 : 0.00287563
-DRAM_ACCESSES0 :       9737
+DRAM_WRITES0 :         29
+DRAM_READ_INTENSITY0 :   0.997022
+DRAM_WRITE_INTENSITY0 : 0.00297802
+DRAM_ACCESSES0 :       9738
 
 DRAM_AVG_CONGESTED_CYCLE : 29
 
