@@ -1,23 +1,83 @@
 //--- Implementing the Pseudo-Tree-Based LRU Replacement Policy ---//
 
 #include "cache.h"
+#include <vector>
+
+class PTree {
+private:
+    std::vector<bool> tree;
+    uint32_t num_way;
+
+public:
+    PTree(uint32_t arg_num_way) {
+        num_way = arg_num_way;
+        tree.resize(num_way - 1, false);
+    }
+
+    // return the victim way pointed by PTree
+    uint32_t ptree_victim() {
+        // If root at n, left child at 2n+1, right child at 2n+2
+        uint32_t index = 0;
+        while (index < num_way - 1) {
+            if (tree[index]) {
+                index = 2 * index + 2; // go to right child
+            } else {
+                index = 2 * index + 1; // go to left child
+            }
+        }
+        return index - (num_way - 1);
+    }
+
+    // update the tree to move pointers away from index
+    void update_ptree(uint32_t index) {
+        // If child at n, root at (n-1)/2
+        index = index + (num_way - 1); 
+        uint32_t root;
+        while (index > 0) {
+            root = (index - 1) / 2;
+            if (index % 2 == 0) { 
+                tree[root] = false; // if index is right, turn root to left
+            } else {
+                tree[root] = true; // if index is left, turn root to right
+            }
+            index = root;
+        }
+    }
+};
+
+std::vector<PTree> ptrees;
 
 // initialize replacement state
 void CACHE::llc_initialize_replacement()
 {
-
+    ptrees.resize(NUM_SET, PTree(NUM_WAY));
 }
 
 // find replacement victim
 uint32_t CACHE::llc_find_victim(uint32_t cpu, uint64_t instr_id, uint32_t set, const BLOCK *current_set, uint64_t ip, uint64_t full_addr, uint32_t type)
-{
+{  
+    // from base_replacement.cc
+    uint32_t way = 0;
 
+    // fill invalid line first
+    for (way = 0; way < NUM_WAY; way++) {
+        if (block[set][way].valid == false) {
+            break;
+        }
+    }
+
+    // PTree victim
+    if (way == NUM_WAY) {
+        way = ptrees[set].ptree_victim();
+    }
+
+    return way;
 }
 
 // called on every cache hit and cache fill
 void CACHE::llc_update_replacement_state(uint32_t cpu, uint32_t set, uint32_t way, uint64_t full_addr, uint64_t ip, uint64_t victim_addr, uint32_t type, uint8_t hit)
 {
-
+    ptrees[set].update_ptree(way);
 }
 
 void CACHE::llc_replacement_final_stats()

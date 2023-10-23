@@ -1,6 +1,7 @@
 import os
 
-directories = ['lru', 'lip', 'bip', 'dip']
+# directories = ['lru', 'lip', 'bip', 'dip']
+directories = ['lru', 'dip', 'ptreelru']
 files = ['400.perlbench', '401.bzip2', '403.gcc', '462.libquantum', '464.h264ref', '471.omnetpp']
 
 for file in files:
