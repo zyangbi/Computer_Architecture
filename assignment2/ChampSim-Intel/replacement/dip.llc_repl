@@ -4,12 +4,14 @@
 #include <random>
 #include <unordered_set>
 
+#define NUM_CPU 4
 #define NUM_CONSTITUENCY 64
 #define EPSILON 0.05
 
-std::unordered_set<uint32_t> lru_sets; // sets dedicated to lru
-std::unordered_set<uint32_t> bip_sets; // sets dedicated to bip
-int64_t PSEL; // when PSEL >= 0, follower sets use LRU policy; when PSEL < 0, follower sets use BIP policy
+std::vector<std::unordered_set<uint32_t>> lru_sets(NUM_CPU); // sets dedicated to lru
+std::vector<std::unordered_set<uint32_t>> bip_sets(NUM_CPU); // sets dedicated to bip
+std::vector<int64_t> PSEL; // when PSEL >= 0, follower sets use LRU policy; when PSEL < 0, follower sets use BIP policy
+
 
 std::default_random_engine gen(std::random_device{}());
 std::uniform_int_distribution<int> dist_int(0, NUM_CONSTITUENCY - 1);
@@ -18,12 +20,14 @@ std::uniform_real_distribution<double> dist_double(0.0, 1.0);
 // initialize replacement state
 void CACHE::llc_initialize_replacement()
 {
-    PSEL = 0;
+    PSEL.resize(NUM_CPU, 0);
 
     // Dedicate one set in each constituency to LRU and BIP respectively
     for (int i = 0; i < NUM_CONSTITUENCY; ++i) {
-        lru_sets.insert(i * NUM_CONSTITUENCY + dist_int(gen));
-        bip_sets.insert(i * NUM_CONSTITUENCY + dist_int(gen));
+        for (int j = 0; j < NUM_CPU; ++j) {
+            lru_sets[j].insert(i * NUM_CONSTITUENCY + dist_int(gen));
+            bip_sets[j].insert(i * NUM_CONSTITUENCY + dist_int(gen));
+        }
     }
 }
 
@@ -44,21 +48,21 @@ void CACHE::llc_update_replacement_state(uint32_t cpu, uint32_t set, uint32_t wa
         lru_update(set, way);
     } else {
         // cache miss and cache fill
-        if (lru_sets.count(set) > 0) {
+        if (lru_sets[cpu].count(set) > 0) {
             // LRU set
             lru_update(set, way);
-            PSEL--;
-        } else if (bip_sets.count(set) > 0) {
+            PSEL[cpu]--;
+        } else if (bip_sets[cpu].count(set) > 0) {
             // BIP set
             if (dist_double(gen) < EPSILON) {
                 lru_update(set, way);
             } else {
                 block[set][way].lru = NUM_WAY - 1;
             }
-            PSEL++;
+            PSEL[cpu]++;
         } else {
             // follower set
-            if (PSEL >= 0) {
+            if (PSEL[cpu] >= 0) {
                 // LRU update
                 lru_update(set, way);
             } else {
