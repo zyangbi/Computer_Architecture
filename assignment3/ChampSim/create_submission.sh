@@ -1,0 +1,2 @@
+#!/bin/bash
+tar -czvf submission.tar.gz *.pdf algorithms bin branch btb champsim_config.json compile_champsim.sh config.sh inc LICENSE Makefile obj output prefetcher README.md replacement results run_all.sh run_single.sh src tracer/traces
