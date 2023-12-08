@@ -5,10 +5,12 @@
 #define MAX_COUNTER 3
 
 int table[NUM_CPUS][TABLE_SIZE];
+int history[NUM_CPUS];
 
 void O3_CPU::initialize_branch_predictor()
 {
     cout << "CPU " << cpu << " Branch predictor" << endl;
+    history[cpu] = 0;
 
     for(int i = 0; i < TABLE_SIZE; i++)
         table[cpu][i] = 0;
@@ -20,8 +22,8 @@ uint8_t O3_CPU::predict_branch(uint64_t ip)
     uint8_t prediction = 0;
 
     //---- FILL THE PART BELOW THIS ----//
-
-
+    uint32_t i = ((hash << 1) ^ history[cpu]) & (TABLE_SIZE - 1); // history as LSB of index
+    prediction = (table[cpu][i] >> 1); // 0 for 00 or 01, 1 for 10 or 11
     //---- FILL THE PART ABOVE THIS ----//
 	
     return prediction;
@@ -31,7 +33,19 @@ void O3_CPU::last_branch_result(uint64_t ip, uint8_t taken)
 {
     uint32_t hash = ip % PRIME;
     //---- FILL THE PART BELOW THIS ----//
+    uint32_t i = ((hash << 1) ^ history[cpu]) & (TABLE_SIZE - 1); // history as LSB of index
 
+    if (taken) {
+        if (table[cpu][i] < MAX_COUNTER) {
+            table[cpu][i]++;
+        } 
+    } else {
+        if (table[cpu][i] > 0) {
+            table[cpu][i]--;
+        } 
+    }
+
+    history[cpu] = taken;
     //---- FILL THE PART ABOVE THIS ----//
     return;
 }
