@@ -1,312 +1,288 @@
 400.perlbench
-perceptron
-CPU_0_Branch Prediction Accuracy : 96.1359
-
 hashed_perceptron
-CPU_0_Branch Prediction Accuracy : 98.4335
+CPU_0_Branch Prediction Accuracy : 99.6977
 
 2bitcorr
-CPU_0_Branch Prediction Accuracy : 96.9789
+CPU_0_Branch Prediction Accuracy : 99.4604
 
 hashed_gselect
+CPU_0_Branch Prediction Accuracy : 99.3878
+
 
 
 401.bzip2
-perceptron
-CPU_0_Branch Prediction Accuracy : 93.6796
-
 hashed_perceptron
-CPU_0_Branch Prediction Accuracy : 94.0614
+CPU_0_Branch Prediction Accuracy : 93.6257
 
 2bitcorr
-CPU_0_Branch Prediction Accuracy : 93.0406
+CPU_0_Branch Prediction Accuracy : 91.5915
 
 hashed_gselect
+CPU_0_Branch Prediction Accuracy : 91.786
+
 
 
 403.gcc
-perceptron
-CPU_0_Branch Prediction Accuracy : 96.5923
-
 hashed_perceptron
-CPU_0_Branch Prediction Accuracy : 98.0285
+CPU_0_Branch Prediction Accuracy : 99.4345
 
 2bitcorr
-CPU_0_Branch Prediction Accuracy : 95.1137
+CPU_0_Branch Prediction Accuracy : 94.1533
 
 hashed_gselect
+CPU_0_Branch Prediction Accuracy : 93.0185
+
 
 
 462.libquantum
-perceptron
-CPU_0_Branch Prediction Accuracy : 100
-
 hashed_perceptron
-CPU_0_Branch Prediction Accuracy : 100
+CPU_0_Branch Prediction Accuracy : 99.9987
 
 2bitcorr
-CPU_0_Branch Prediction Accuracy : 100
+CPU_0_Branch Prediction Accuracy : 96.3061
 
 hashed_gselect
+CPU_0_Branch Prediction Accuracy : 95.9556
+
 
 
 464.h264ref.gz
-perceptron
-CPU_0_Branch Prediction Accuracy : 98.9044
-
 hashed_perceptron
-CPU_0_Branch Prediction Accuracy : 99.8416
+CPU_0_Branch Prediction Accuracy : 98.7394
 
 2bitcorr
-CPU_0_Branch Prediction Accuracy : 94.9963
+CPU_0_Branch Prediction Accuracy : 94.0272
 
 hashed_gselect
+CPU_0_Branch Prediction Accuracy : 95.1154
+
 
 
 471.omnetpp.gz
-perceptron
-CPU_0_Branch Prediction Accuracy : 97.6508
-
 hashed_perceptron
-CPU_0_Branch Prediction Accuracy : 98.3813
+CPU_0_Branch Prediction Accuracy : 98.6049
 
 2bitcorr
-CPU_0_Branch Prediction Accuracy : 94.8999
+CPU_0_Branch Prediction Accuracy : 95.0628
 
 hashed_gselect
+CPU_0_Branch Prediction Accuracy : 95.2244
+
 
 
 400.perlbench
-perceptron
-ROI_Cumulative_IPC : 0.220995
-
 hashed_perceptron
-ROI_Cumulative_IPC : 0.22787
+ROI_Cumulative_IPC : 0.34145
 
 2bitcorr
-ROI_Cumulative_IPC : 0.222673
+ROI_Cumulative_IPC : 0.335436
 
 hashed_gselect
+ROI_Cumulative_IPC : 0.335817
+
 
 
 401.bzip2
-perceptron
-ROI_Cumulative_IPC : 0.849095
-
 hashed_perceptron
-ROI_Cumulative_IPC : 0.872246
+ROI_Cumulative_IPC : 0.509095
 
 2bitcorr
-ROI_Cumulative_IPC : 0.815582
+ROI_Cumulative_IPC : 0.485223
 
 hashed_gselect
+ROI_Cumulative_IPC : 0.486841
+
 
 
 403.gcc
-perceptron
-ROI_Cumulative_IPC : 0.830813
-
 hashed_perceptron
-ROI_Cumulative_IPC : 0.939522
+ROI_Cumulative_IPC : 0.617657
 
 2bitcorr
-ROI_Cumulative_IPC : 0.745438
+ROI_Cumulative_IPC : 0.479714
 
 hashed_gselect
+ROI_Cumulative_IPC : 0.456031
+
 
 
 462.libquantum
-perceptron
-ROI_Cumulative_IPC : 0.273063
-
 hashed_perceptron
-ROI_Cumulative_IPC : 0.273063
+ROI_Cumulative_IPC : 0.201245
 
 2bitcorr
-ROI_Cumulative_IPC : 0.273063
+ROI_Cumulative_IPC : 0.180431
 
 hashed_gselect
+ROI_Cumulative_IPC : 0.177896
+
 
 
 464.h264ref.gz
-perceptron
-ROI_Cumulative_IPC : 1.1402
-
 hashed_perceptron
-ROI_Cumulative_IPC : 1.15501
+ROI_Cumulative_IPC : 0.943607
 
 2bitcorr
-ROI_Cumulative_IPC : 1.09213
+ROI_Cumulative_IPC : 0.832741
 
 hashed_gselect
+ROI_Cumulative_IPC : 0.868695
+
 
 
 471.omnetpp.gz
-perceptron
-ROI_Cumulative_IPC : 0.182391
-
 hashed_perceptron
-ROI_Cumulative_IPC : 0.18514
+ROI_Cumulative_IPC : 0.150972
 
 2bitcorr
-ROI_Cumulative_IPC : 0.175305
+ROI_Cumulative_IPC : 0.145044
 
 hashed_gselect
+ROI_Cumulative_IPC : 0.144966
+
 
 
 400.perlbench
-perceptron
-CPU_0_MPKIPERCENT : 5.88367
-
 hashed_perceptron
-CPU_0_MPKIPERCENT : 2.38523
+CPU_0_MPKIPERCENT : 0.645038
 
 2bitcorr
-CPU_0_MPKIPERCENT : 4.6015
+CPU_0_MPKIPERCENT : 1.15116
 
 hashed_gselect
+CPU_0_MPKIPERCENT : 1.30605
+
 
 
 401.bzip2
-perceptron
-CPU_0_MPKIPERCENT : 11.3747
-
 hashed_perceptron
-CPU_0_MPKIPERCENT : 10.6869
+CPU_0_MPKIPERCENT : 11.2101
 
 2bitcorr
-CPU_0_MPKIPERCENT : 12.5247
+CPU_0_MPKIPERCENT : 14.9033
 
 hashed_gselect
+CPU_0_MPKIPERCENT : 14.4837
+
 
 
 403.gcc
-perceptron
-CPU_0_MPKIPERCENT : 8.43315
-
 hashed_perceptron
-CPU_0_MPKIPERCENT : 4.87929
+CPU_0_MPKIPERCENT : 1.22667
 
 2bitcorr
-CPU_0_MPKIPERCENT : 12.0935
+CPU_0_MPKIPERCENT : 12.6828
 
 hashed_gselect
+CPU_0_MPKIPERCENT : 15.1452
+
 
 
 462.libquantum
-perceptron
-CPU_0_MPKIPERCENT : 0
-
 hashed_perceptron
-CPU_0_MPKIPERCENT : 0
+CPU_0_MPKIPERCENT : 0.0023872
 
 2bitcorr
-CPU_0_MPKIPERCENT : 0
+CPU_0_MPKIPERCENT : 6.63548
 
 hashed_gselect
+CPU_0_MPKIPERCENT : 7.26509
+
 
 
 464.h264ref.gz
-perceptron
-CPU_0_MPKIPERCENT : 0.596244
-
 hashed_perceptron
-CPU_0_MPKIPERCENT : 0.0862038
+CPU_0_MPKIPERCENT : 1.12543
 
 2bitcorr
-CPU_0_MPKIPERCENT : 2.72204
+CPU_0_MPKIPERCENT : 5.33099
 
 hashed_gselect
+CPU_0_MPKIPERCENT : 4.35999
+
 
 
 471.omnetpp.gz
-perceptron
-CPU_0_MPKIPERCENT : 5.71607
-
 hashed_perceptron
-CPU_0_MPKIPERCENT : 3.93858
+CPU_0_MPKIPERCENT : 3.3543
 
 2bitcorr
-CPU_0_MPKIPERCENT : 12.4094
+CPU_0_MPKIPERCENT : 11.8707
 
 hashed_gselect
+CPU_0_MPKIPERCENT : 11.4813
+
 
 
 400.perlbench
-perceptron
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 31.2576
-
 hashed_perceptron
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 62.5394
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 127.846
 
 2bitcorr
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 41.9971
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 119.427
 
 hashed_gselect
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 123.16
+
 
 
 401.bzip2
-perceptron
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 24.3255
-
 hashed_perceptron
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 25.1016
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 24.549
 
 2bitcorr
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 21.6404
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 19.1897
 
 hashed_gselect
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 20.1444
+
 
 
 403.gcc
-perceptron
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 36.5888
-
 hashed_perceptron
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 49.3015
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 94.5748
 
 2bitcorr
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 27.2897
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 36.8291
 
 hashed_gselect
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 29.7873
+
 
 
 462.libquantum
-perceptron
-CPU_0_Average_ROB_Occupancy_at_Mispredict : -nan
-
 hashed_perceptron
-CPU_0_Average_ROB_Occupancy_at_Mispredict : -nan
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 101.958
 
 2bitcorr
-CPU_0_Average_ROB_Occupancy_at_Mispredict : -nan
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 42.5362
 
 hashed_gselect
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 37.6239
+
 
 
 464.h264ref.gz
-perceptron
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 172.907
-
 hashed_perceptron
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 49.5246
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 54.2685
 
 2bitcorr
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 140.789
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 56.0133
 
 hashed_gselect
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 70.6322
+
 
 
 471.omnetpp.gz
-perceptron
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 57.6644
-
 hashed_perceptron
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 59.9567
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 70.7929
 
 2bitcorr
-CPU_0_Average_ROB_Occupancy_at_Mispredict : 46.8288
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 48.5443
 
 hashed_gselect
+CPU_0_Average_ROB_Occupancy_at_Mispredict : 49.3917
+
 
 

@@ -1,7 +1,7 @@
 import os
 
 metrics = ["CPU_0_Branch Prediction Accuracy", "ROI_Cumulative_IPC", "CPU_0_MPKIPERCENT", "CPU_0_Average_ROB_Occupancy_at_Mispredict"]
-policies = ['perceptron', 'hashed_perceptron', '2bitcorr', 'hashed_gselect']
+policies = ['hashed_perceptron', '2bitcorr', 'hashed_gselect']
 benchmarks = ['400.perlbench', '401.bzip2', '403.gcc', '462.libquantum', '464.h264ref.gz', '471.omnetpp.gz']
 
 with open('output.txt', 'w') as file:
